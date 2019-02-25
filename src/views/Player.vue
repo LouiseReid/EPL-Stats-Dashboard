@@ -14,7 +14,7 @@ export default {
       player: {}
     };
   },
-  created() {
+  mounted() {
       EventService.getPlayer(this.id)
       .then(res => this.player = res.data[0])
   }

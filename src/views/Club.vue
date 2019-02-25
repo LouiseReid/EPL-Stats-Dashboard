@@ -7,11 +7,7 @@ import EventService from "@/services/EventService";
 import { mapActions, mapGetters } from "vuex";
 
 export default {
-  props: {
-    club: {
-      type: String
-    }
-  },
+  props: ['club'],
   methods: {
     ...mapActions(["getPlayersForClub"])
   },

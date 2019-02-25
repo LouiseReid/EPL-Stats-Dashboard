@@ -22,14 +22,7 @@
 import { mapActions } from "vuex";
 
 export default {
-  props: {
-    clubs: {
-      type: Array
-    },
-    players: {
-      type: Array
-    }
-  },
+  props: ['clubs', 'players'],
   methods: {
     ...mapActions(["resetPlayersForClub"])
   }
@@ -37,4 +30,8 @@ export default {
 </script>
 
 <style scoped>
+div {
+  display: flex;
+  flex-direction: column;
+}
 </style>

@@ -3,7 +3,7 @@
     <div id="nav">
       <NavBar :clubs="clubs" :players="playersForClub"/>
     </div>
-    <router-view/>
+    <router-view :key="$route.fullPath"/>
   </div>
 </template>
 
@@ -29,4 +29,13 @@ export default {
 </script>
 
 <style lang="scss">
+#app {
+  display: flex;
+}
+ #nav {
+  height: 100vh;
+  width: 15vw;
+  background: #84baf0;
+  margin: 0;
+ }
 </style>
