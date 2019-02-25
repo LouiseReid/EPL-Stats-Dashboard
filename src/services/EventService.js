@@ -17,6 +17,6 @@ export default {
     return apiClient.get('/players?club=' + team);
   },
   getPlayersForPosition(position) {
-    return apiClient.get('/players?club=' + position);
+    return apiClient.get('/players?position=' + position);
   }
 };
