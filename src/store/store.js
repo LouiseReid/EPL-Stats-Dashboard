@@ -24,6 +24,9 @@ export const store = new Vuex.Store({
     },
     SET_CLUB_PLAYERS(state, data) {
       state.playersForClub = data;
+    },
+    RESET_CLUB_PLAYERS(state) {
+      state.playersForClub = [];
     }
   },
   actions: {
@@ -40,6 +43,9 @@ export const store = new Vuex.Store({
       // eslint-disable-next-line prettier/prettier
       EventService.getPlayersForClub(club).
       then(players => commit('SET_CLUB_PLAYERS', players.data));
+    },
+    resetPlayersForClub({ commit }) {
+      commit('RESET_CLUB_PLAYERS');
     }
   }
 });
