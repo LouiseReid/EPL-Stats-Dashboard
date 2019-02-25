@@ -13,6 +13,9 @@ export default {
   getPlayers() {
     return apiClient.get('/players');
   },
+  getPlayer(id) {
+    return apiClient.get('/players?id=' + id);
+  },
   getPlayersForClub(team) {
     return apiClient.get('/players?club=' + team);
   },

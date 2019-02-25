@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <NavBar :clubs="clubs"/>
+      <NavBar :clubs="clubs" :players="playersForClub"/>
     </div>
     <router-view/>
   </div>
@@ -17,7 +17,7 @@ export default {
     ...mapActions(["getPlayers"])
   },
   computed: {
-    ...mapGetters(["clubs"])
+    ...mapGetters(["clubs", "playersForClub"])
   },
   created() {
     this.getPlayers();
