@@ -17,7 +17,7 @@ export default {
     ...mapActions(["getPlayers"])
   },
   computed: {
-    ...mapGetters(['clubs'])
+    ...mapGetters(["clubs"])
   },
   created() {
     this.getPlayers();

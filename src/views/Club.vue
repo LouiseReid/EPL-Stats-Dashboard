@@ -1,25 +1,26 @@
 <template>
-  <div></div>
+  <div>{{ club }}</div>
 </template>
 
 <script>
 import EventService from "@/services/EventService";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
-    props: {
-        club: {
-            type: String
-        },
-    },
-    data() {
-        return {
-            players: []
-        }
-    },
-    mounted(){
-        EventService.getPlayersForClub(this.club)
-        .then(players => this.players = players.data)
+  props: {
+    club: {
+      type: String
     }
+  },
+  methods: {
+    ...mapActions(["getPlayersForClub"])
+  },
+  computed: {
+    ...mapGetters(["playersForClub"])
+  },
+  created() {
+    this.getPlayersForClub(this.club);
+  }
 };
 </script>
 

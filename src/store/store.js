@@ -7,18 +7,23 @@ Vue.use(Vuex);
 export const store = new Vuex.Store({
   state: {
     allPlayers: [],
-    clubs: []
+    clubs: [],
+    playersForClub: []
   },
   getters: {
     allPlayers: state => state.allPlayers,
-    clubs: state => state.clubs
+    clubs: state => state.clubs,
+    playersForClub: state => state.playersForClub
   },
   mutations: {
     SET_PLAYERS(state, data) {
-      state.players = data;
+      state.allPlayers = data;
     },
     SET_CLUBS(state, data) {
       state.clubs = data;
+    },
+    SET_CLUB_PLAYERS(state, data) {
+      state.playersForClub = data;
     }
   },
   actions: {
@@ -27,9 +32,14 @@ export const store = new Vuex.Store({
       EventService.getPlayers()
         .then(players => commit('SET_PLAYERS', players.data))
         .then(() => {
-          const clubs = this.state.players.map(player => player.club);
+          const clubs = this.state.allPlayers.map(player => player.club);
           commit('SET_CLUBS', [...new Set(clubs)]);
         });
+    },
+    getPlayersForClub({ commit }, club) {
+      // eslint-disable-next-line prettier/prettier
+      EventService.getPlayersForClub(club).
+      then(players => commit('SET_CLUB_PLAYERS', players.data));
     }
   }
 });
