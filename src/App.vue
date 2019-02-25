@@ -8,30 +8,25 @@
 </template>
 
 <script>
-import EventService from '@/services/EventService';
-import NavBar from '@/components/Nav.vue';
+import EventService from "@/services/EventService";
+import NavBar from "@/components/Nav.vue";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
-    data() {
-        return {
-            players: [],
-            clubs: []
-        }
-    },
-    mounted(){
-        EventService.getPlayers()
-        .then(players => this.players = players.data)
-        .then(() => {
-          const clubs = this.players.map(player => player.club)
-          this.clubs = [... new Set(clubs)]
-        })
-    },
-    components: {
-      NavBar
-    }
+  methods: {
+    ...mapActions(["getPlayers"])
+  },
+  computed: {
+    ...mapGetters(['clubs'])
+  },
+  created() {
+    this.getPlayers();
+  },
+  components: {
+    NavBar
+  }
 };
 </script>
 
 <style lang="scss">
-
 </style>

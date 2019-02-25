@@ -16,7 +16,7 @@ const router = new Router({
       component: Home
     },
     {
-      path: '/club/:name',
+      path: '/club/:club',
       name: 'Club',
       component: Club,
       props: true

@@ -4,7 +4,7 @@
         <router-link 
             v-for="club in clubs" 
             :key="club"
-            :to="{name: 'Club', params: {name: club}}"
+            :to="{name: 'Club', params: {club: club}}"
         >{{ club }}</router-link>
     </div>
 </template>
