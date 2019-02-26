@@ -13,7 +13,7 @@
         v-for="player in players"
         :key="player.id"
         :to="{name: 'Player', params: {id: player.id}}"
-      >{{ player.name }}</router-link>
+      >{{ player.details.name }}</router-link>
     </template>
   </div>
 </template>
@@ -22,16 +22,25 @@
 import { mapActions } from "vuex";
 
 export default {
-  props: ['clubs', 'players'],
+  props: ["clubs", "players"],
   methods: {
     ...mapActions(["resetPlayersForClub"])
   }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 div {
   display: flex;
   flex-direction: column;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 5px;
+  &:not(:first-child) {
+    padding-top: 10px;
+  }
 }
 </style>

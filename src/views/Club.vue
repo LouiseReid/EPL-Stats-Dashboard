@@ -1,5 +1,5 @@
 <template>
-  <div>{{ club }}</div>
+  <div v-if="club" :class="backgroundColour">{{ club }}</div>
 </template>
 
 <script>
@@ -12,7 +12,15 @@ export default {
     ...mapActions(["getPlayersForClub"])
   },
   computed: {
-    ...mapGetters(["playersForClub"])
+    ...mapGetters(["playersForClub"]),
+          backgroundColour(){
+          if(this.club === 'Liverpool'){
+              return 'liverpool'
+          }
+          if(this.club === 'Manchester City'){
+              return 'mancity'
+          }
+      }
   },
   created() {
     this.getPlayersForClub(this.club);
@@ -20,5 +28,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.liverpool {
+    background-color: $liverpool
+}
+
+.mancity {
+    background-color: $mancity
+}
 </style>

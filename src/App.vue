@@ -3,12 +3,11 @@
     <div id="nav">
       <NavBar :clubs="clubs" :players="playersForClub"/>
     </div>
-    <router-view :key="$route.fullPath"/>
+    <router-view :key="$route.fullPath" class="view"/>
   </div>
 </template>
 
 <script>
-import EventService from "@/services/EventService";
 import NavBar from "@/components/Nav.vue";
 import { mapActions, mapGetters } from "vuex";
 
@@ -29,13 +28,23 @@ export default {
 </script>
 
 <style lang="scss">
+
+* {
+  margin: 0;
+  padding: 0;
+}
 #app {
   display: flex;
 }
  #nav {
   height: 100vh;
   width: 15vw;
-  background: #84baf0;
+  background: #2b3136;
   margin: 0;
+ }
+
+ .view {
+   width: 85vw;
+   height: 100vh;
  }
 </style>

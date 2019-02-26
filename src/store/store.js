@@ -35,7 +35,9 @@ export const store = new Vuex.Store({
       EventService.getPlayers()
         .then(players => commit('SET_PLAYERS', players.data))
         .then(() => {
-          const clubs = this.state.allPlayers.map(player => player.club);
+          const clubs = this.state.allPlayers.map(
+            player => player.details.club
+          );
           commit('SET_CLUBS', [...new Set(clubs)]);
         });
     },
