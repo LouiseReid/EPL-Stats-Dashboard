@@ -1,5 +1,5 @@
 <template>
-  <div :class="backgroundColour" v-if="player">
+  <div v-if="player.details" :class="backgroundColour">
     <PlayerDetail :details="player.details"/>
   </div>
 </template>
@@ -16,32 +16,30 @@ export default {
     };
   },
   mounted() {
-    EventService.getPlayer(this.id)
-    .then(res => (this.player = res.data[0]))
+    EventService.getPlayer(this.id).then(res => (this.player = res.data[0]));
   },
   components: {
     PlayerDetail
   },
-    computed: {
-      backgroundColour(){
-          if(this.player.details.club === 'Liverpool'){
-              return 'liverpool'
-          }
-          if(this.player.details.club === 'Manchester City'){
-              return 'mancity'
-          }
+  computed: {
+    backgroundColour() {
+      if (this.player.details.club === "Liverpool") {
+        return "liverpool";
       }
+      if (this.player.details.club === "Manchester City") {
+        return "mancity";
+      }
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-
 .liverpool {
-    background-color: $liverpool
+  background-color: $liverpool;
 }
 
 .mancity {
-    background-color: $mancity
+  background-color: $mancity;
 }
 </style>

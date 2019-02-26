@@ -35,6 +35,7 @@ export default {
 }
 #app {
   display: flex;
+  font-family: 'Padauk', sans-serif;
 }
  #nav {
   height: 100vh;
