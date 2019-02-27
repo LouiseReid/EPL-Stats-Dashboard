@@ -50,20 +50,15 @@
         "goals-conceded": 15,
         "tackles": 24,
         "tackle-success-perc": 75,
-        "last-man-takles": 0,
         "blocked-shots": 7,
         "interceptions": 27,
         "clearances": 137,
-        "headed-clearances": 72,
-        "clearances-off-line": 0,
         "recoveries": 131,
         "duels-won": 160,
         "duels-lost": 51,
         "successful-5050s": 8,
         "aerial-battles-won": 117,
-        "aerial-battles-lost": 40,
-        "errors-goal-conceded": 0,
-        "own-goals": 0
+        "aerial-battles-lost": 40
       },
       "discipline": {
         "yellow-cards": 1,
@@ -99,16 +94,12 @@
         "blocked-shots": 2,
         "interceptions": 21,
         "clearances": 36,
-        "headed-clearances": 16,
-        "clearances-off-line": 0,
         "recoveries": 160,
         "duels-won": 109,
         "duels-lost": 80,
         "successful-5050s": 19,
         "aerial-battles-won": 14,
-        "aerial-battles-lost": 16,
-        "errors-goal-conceded": 0,
-        "own-goals": 0
+        "aerial-battles-lost": 16
       },
       "discipline": {
         "yellow-cards": 2,
@@ -141,14 +132,12 @@
         "blocked-shots": 1,
         "interceptions": 18,
         "clearances": 12,
-        "headed-clearances": 6,
         "recoveries": 120,
         "duels-won": 60,
         "duels-lost": 54,
         "successful-5050s": 4,
         "aerial-battles-won": 16,
-        "aerial-battles-lost": 16,
-        "errors-goal-conceded": 0
+        "aerial-battles-lost": 16
       },
       "discipline": {
         "yellow-cards": 0,
@@ -188,14 +177,11 @@
         "blocked-shots": 9,
         "interceptions": 18,
         "clearances": 16,
-        "headed-clearances": 9,
         "recoveries": 114,
         "duels-won": 83,
         "duels-lost": 77,
         "successful-5050s": 10,
-        "aerial-battles-won": 18,
-        "aerial-battles-lost": 22,
-        "errors-goal-conceded": 0
+        "aerial-battles-won": 18
       },
       "discipline": {
         "yellow-cards": 3,
@@ -229,13 +215,6 @@
         "wins": 20,
         "losses": 1
       },
-      "defence": {
-        "tackles": 21,
-        "blocked-shots": 12,
-        "interceptions": 6,
-        "clearances": 13,
-        "headed-clearances": 11
-      },
       "discipline": {
         "yellow-cards": 0,
         "red-cards": 0,
@@ -265,13 +244,6 @@
         "apperances": 27,
         "wins": 20,
         "losses": 1
-      },
-      "defence": {
-        "tackles": 14,
-        "blocked-shots": 21,
-        "interceptions": 4,
-        "clearances": 4,
-        "headed-clearances": 1
       },
       "discipline": {
         "yellow-cards": 0,
@@ -345,20 +317,15 @@
         "goals-conceded": 14,
         "tackles": 31,
         "tackle-success-perc": 71,
-        "last-man-takles": 0,
         "blocked-shots": 6,
         "interceptions": 28,
         "clearances": 31,
-        "headed-clearances": 15,
-        "clearances-off-line": 1,
         "recoveries": 117,
         "duels-won": 87,
         "duels-lost": 57,
         "successful-5050s": 13,
         "aerial-battles-won": 34,
-        "aerial-battles-lost": 21,
-        "errors-goal-conceded": 0,
-        "own-goals": 0
+        "aerial-battles-lost": 21
       },
       "discipline": {
         "yellow-cards": 1,
@@ -390,20 +357,16 @@
         "goals-conceded": 19,
         "tackles": 30,
         "tackle-success-perc": 43,
-        "last-man-takles": 0,
         "blocked-shots": 3,
         "interceptions": 30,
         "clearances": 69,
-        "headed-clearances": 47,
         "clearances-off-line": 0,
         "recoveries": 144,
         "duels-won": 102,
         "duels-lost": 73,
         "successful-5050s": 2,
         "aerial-battles-won": 58,
-        "aerial-battles-lost": 42,
-        "errors-goal-conceded": 0,
-        "own-goals": 0
+        "aerial-battles-lost": 42
       },
       "discipline": {
         "yellow-cards": 3,
@@ -436,14 +399,12 @@
         "blocked-shots": 3,
         "interceptions": 1,
         "clearances": 1,
-        "headed-clearances": 0,
         "recoveries": 41,
         "duels-won": 37,
         "duels-lost": 37,
         "successful-5050s": 12,
         "aerial-battles-won": 4,
         "aerial-battles-lost": 7,
-        "errors-goal-conceded": 0
       },
       "discipline": {
         "yellow-cards": 3,
@@ -483,14 +444,12 @@
         "blocked-shots": 17,
         "interceptions": 14,
         "clearances": 8,
-        "headed-clearances": 0,
         "recoveries": 95,
         "duels-won": 71,
         "duels-lost": 68,
         "successful-5050s": 23,
         "aerial-battles-won": 10,
-        "aerial-battles-lost": 9,
-        "errors-goal-conceded": 0
+        "aerial-battles-lost": 9
       },
       "discipline": {
         "yellow-cards": 2,
@@ -524,13 +483,6 @@
       "wins": 18,
       "losses": 4
       },
-      "defence": {
-        "tackles": 22,
-        "blocked-shots": 14,
-        "interceptions": 14,
-        "clearances": 4,
-        "headed-clearances": 1
-      },
       "discipline": {
         "yellow-cards": 2,
         "red-cards": 0,
@@ -561,13 +513,6 @@
       "apperances": 23,
       "wins": 18,
       "losses": 3
-      },
-      "defence": {
-        "tackles": 16,
-        "blocked-shots": 20,
-        "interceptions": 8,
-        "clearances": 3,
-        "headed-clearances": 0
       },
       "discipline": {
         "yellow-cards": 3,

@@ -1,7 +1,7 @@
 <template>
   <div v-if="player.details" :class="backgroundColour">
     <PlayerDetail :details="player.details"/>
-    <DefenceStats :stats="player.defence"/>
+    <DefenceStats v-if="player.details.position !== 'Forward'" :stats="player.defence"/>
   </div>
 </template>
 

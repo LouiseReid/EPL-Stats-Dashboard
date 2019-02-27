@@ -40,7 +40,7 @@ export default {
  #nav {
   height: 100vh;
   width: 10vw;
-  background: #2b3136;
+  background: $primary;
   margin: 0;
  }
 
