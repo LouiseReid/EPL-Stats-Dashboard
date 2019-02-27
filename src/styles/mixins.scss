@@ -1,0 +1,14 @@
+@mixin wrapper {
+    background-color: $primary-light;
+    border: 1px solid $primary-dark;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px #675e5e;
+    margin: 20px 7px;
+}
+
+@mixin statHeader {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
