@@ -1,12 +1,14 @@
 <template>
   <div v-if="player.details" :class="backgroundColour">
     <PlayerDetail :details="player.details"/>
+    <DefenceStats :stats="player.defence"/>
   </div>
 </template>
 
 <script>
 import EventService from "@/services/EventService.js";
 import PlayerDetail from "@/components/PlayerDetail.vue";
+import DefenceStats from "@/components/DefenceStats.vue";
 
 export default {
   props: ["id"],
@@ -19,7 +21,8 @@ export default {
     EventService.getPlayer(this.id).then(res => (this.player = res.data[0]));
   },
   components: {
-    PlayerDetail
+    PlayerDetail,
+    DefenceStats
   },
   computed: {
     backgroundColour() {

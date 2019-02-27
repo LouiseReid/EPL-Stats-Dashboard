@@ -39,13 +39,13 @@ export default {
 }
  #nav {
   height: 100vh;
-  width: 15vw;
+  width: 10vw;
   background: #2b3136;
   margin: 0;
  }
 
  .view {
-   width: 85vw;
+   width: 90vw;
    height: 100vh;
  }
 </style>
