@@ -1,13 +1,24 @@
 <template>
-  <div v-if="player.details" :class="backgroundColour">
-    <PlayerDetail :details="player.details"/>
-    <div class="stats-container">
-      <DefenceStats v-if="player.details.position === 'Defender' || player.details.position === 'Midfielder'" :stats="player.defence"/>
-      <div class="stats-container--inner">
-        <DisciplineStats :stats="player.discipline"/>
-        <RadarWrapper header="Team Play" :stats="player['team-play']"/>
-        <RadarWrapper v-if="player.details.position === 'Forward' || player.details.position === 'Midfielder'" header="Attack" :stats="player.attack"/>
-      </div>
+  <div v-if="player.details" :class="backgroundColour" class="wrapper">
+    <div class="element--1">
+      <PlayerDetail :details="player.details"/>
+      <DisciplineStats :stats="player.discipline"/>
+    </div>
+
+    <div class="element--2">
+      <DefenceStats
+        v-if="player.details.position === 'Defender' || player.details.position === 'Midfielder'"
+        :stats="player.defence"
+      />
+    </div>
+
+    <div class="element--3">
+      <RadarWrapper header="Team Play" :stats="player['team-play']"/>
+      <RadarWrapper
+        v-if="player.details.position === 'Forward' || player.details.position === 'Midfielder'"
+        header="Attack"
+        :stats="player.attack"
+      />
     </div>
   </div>
 </template>
@@ -49,13 +60,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.stats-container {
+.wrapper {
+  display: flex;
+  justify-content: space-evenly; 
+}
+.element--1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  height: 100vh;
+}
+.element--2 {
   display: flex;
   justify-content: flex-start;
+  width: 35%;
+}
 
-  &--inner {
-    width: 65%
-  }
+.element--3 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
 
 .liverpool {

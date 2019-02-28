@@ -1,13 +1,13 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper--defence-stats">
     <h2>Defence</h2>
     <div class="charts">
       <div class="charts--donut" v-if="this.stats['aerial-battles-won']">
-        <h3>Arial Battles</h3>
+        <h4>Arial Battles</h4>
         <Donut :won="this.stats['aerial-battles-won']" :lost="this.stats['aerial-battles-lost']"/>
       </div>
       <div class="charts--donut" v-if="this.stats['duels-won']">
-        <h3>Duels</h3>
+        <h4>Duels</h4>
         <Donut :won="this.stats['duels-won']" :lost="this.stats['duels-lost']"/>
       </div>
       <div class="charts--radar">
@@ -64,30 +64,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wrapper {
+.wrapper--defence-stats {
   @include wrapper;
-  height: 75vh;
-  width: 27%;
+  display: flex;
+  flex-direction: column;
 }
 
 .charts {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 80%;
   &--donut {
     width: 50%;
   }
   &--radar {
     @include radar;
-    width: 340px;
-    margin-top: -40px;
   }
 }
 h2 {
   @include statHeader;
 }
 
-h3 {
+h4 {
   text-align: center;
 }
 </style>

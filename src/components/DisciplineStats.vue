@@ -37,7 +37,6 @@ export default {
   @include wrapper;
   display: flex;
   flex-direction: column;
-  width: 27%;
   padding-bottom: 20px;
 }
 
