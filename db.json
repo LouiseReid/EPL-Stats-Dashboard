@@ -3,7 +3,7 @@
       "id": 1,
       "details": {
         "club": "Liverpool",
-        "name": "Alisson Becker",
+        "name": "Alisson",
         "position": "Goalkeeper",
         "apperances": 27,
         "wins": 20,
@@ -30,7 +30,6 @@
       "team-play": {
         "goals": 0,
         "assists": 0,
-        "passes": 753,
         "passes-per-match": 27.89,
         "accurate-long-balls": 136
       }
@@ -69,10 +68,10 @@
       "team-play": {
         "goals": 1,
         "assists": 1,
-        "passes": 2191,
         "passes-per-match": 81.15,
         "crosses": 0,
-        "cross-accuracy-perc": 0
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 2
       }
     },
     {
@@ -110,10 +109,10 @@
       "team-play": {
         "goals": 0,
         "assists": 4,
-        "passes": 1670,
         "passes-per-match": 66.80,
         "crosses": 84,
-        "cross-accuracy-perc": 12
+        "cross-accuracy-perc": 12,
+        "big-chances-created": 10
       }
     },
     {
@@ -146,7 +145,6 @@
         "offsides": 1
       },
       "attack": {
-        "goals": 0,
         "freekicks-scored": 0,
         "penalties-scored": 0,
         "shots": 7,
@@ -154,11 +152,12 @@
         "shooting-acc": 0
       },
       "team-play": {
+        "goals": 0,
         "assists": 0,
-        "passes": 1256,
         "passes-per-match": 57.09,
         "crosses": 24,
-        "cross-accuracy-perc": 17
+        "cross-accuracy-perc": 17,
+        "big-chances-created": 0
       }
     },
     {
@@ -190,7 +189,6 @@
         "offsides": 0
       },
       "attack": {
-        "goals": 3,
         "freekicks-scored": 0,
         "penalties-scored": 1,
         "shots": 17,
@@ -198,11 +196,12 @@
         "shooting-acc": 29
       },
       "team-play": {
+        "goals": 3,
         "assists": 4,
-        "passes": 1162,
         "passes-per-match": 52.82,
         "crosses": 111,
-        "cross-accuracy-perc": 29
+        "cross-accuracy-perc": 29,
+        "big-chances-created": 6
       }
     },
     {
@@ -222,7 +221,6 @@
         "offsides": 3
       },
       "attack": {
-        "goals": 9,
         "freekicks-scored": 0,
         "penalties-scored": 1,
         "shots": 57,
@@ -230,9 +228,11 @@
         "shooting-acc": 51
       },
       "team-play": {
+        "goals": 9,
         "assists": 4,
-        "passes": 1030,
-        "passes-per-match": 38.15
+        "passes-per-match": 38.15,
+        "crosses": 6,
+        "big-chances-created": 6
       }
     },
     {
@@ -252,7 +252,6 @@
         "offsides": 21
       },
       "attack": {
-        "goals": 17,
         "freekicks-scored": 0,
         "penalties-scored": 3,
         "shots": 88,
@@ -260,21 +259,22 @@
         "shooting-acc": 49
       },
       "team-play": {
+        "goals": 17,
         "assists": 7,
-        "passes": 739,
         "passes-per-match": 28.42,
-        "crosses": 49
+        "crosses": 49,
+        "big-chances-created": 13
       }
     },
     {
       "id": 8,
-      "details":{
-      "club": "Manchester City",
-      "name": "Ederson",
-      "position": "Goalkeeper",
-      "apperances": 27,
-      "wins": 21,
-      "losses": 4
+      "details": {
+        "club": "Manchester City",
+        "name": "Ederson",
+        "position": "Goalkeeper",
+        "apperances": 27,
+        "wins": 21,
+        "losses": 4
       },
       "defence": {
         "saves": 46,
@@ -297,20 +297,19 @@
       "team-play": {
         "goals": 0,
         "assists": 1,
-        "passes": 702,
         "passes-per-match": 26.00,
         "accurate-long-balls": 94
       }
     },
     {
       "id": 9,
-      "details":{
-      "club": "Manchester City",
-      "name": "Kyle Walker",
-      "position": "Defender",
-      "apperances": 23,
-      "wins": 18,
-      "losses": 3
+      "details": {
+        "club": "Manchester City",
+        "name": "Kyle Walker",
+        "position": "Defender",
+        "apperances": 23,
+        "wins": 18,
+        "losses": 3
       },
       "defence": {
         "clean-sheets": 11,
@@ -336,21 +335,21 @@
       "team-play": {
         "goals": 1,
         "assists": 1,
-        "passes": 1632,
         "passes-per-match": 70.96,
         "crosses": 39,
-        "cross-accuracy-perc": 8
+        "cross-accuracy-perc": 8,
+        "big-chances-created": 0
       }
     },
     {
       "id": 10,
-      "details":{
-      "club": "Manchester City",
-      "name": "Aymeric Laporte",
-      "position": "Defender",
-      "apperances": 27,
-      "wins": 21,
-      "losses": 4
+      "details": {
+        "club": "Manchester City",
+        "name": "Aymeric Laporte",
+        "position": "Defender",
+        "apperances": 27,
+        "wins": 21,
+        "losses": 4
       },
       "defence": {
         "clean-sheets": 12,
@@ -377,21 +376,21 @@
       "team-play": {
         "goals": 1,
         "assists": 1,
-        "passes": 2313,
         "passes-per-match": 85.67,
         "crosses": 6,
-        "cross-accuracy-perc": 0
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 1
       }
     },
     {
       "id": 11,
-      "details":{
-      "club": "Manchester City",
-      "name": "Kevin De Bruyne",
-      "position": "Midfielder",
-      "apperances": 12,
-      "wins": 9,
-      "losses": 3
+      "details": {
+        "club": "Manchester City",
+        "name": "Kevin De Bruyne",
+        "position": "Midfielder",
+        "apperances": 12,
+        "wins": 9,
+        "losses": 3
       },
       "defence": {
         "tackles": 11,
@@ -413,7 +412,6 @@
         "offsides": 0
       },
       "attack": {
-        "goals": 1,
         "freekicks-scored": 0,
         "penalties-scored": 0,
         "shots": 14,
@@ -421,22 +419,23 @@
         "shooting-acc": 57
       },
       "team-play": {
+        "goals": 1,
         "assists": 0,
-        "passes": 409,
         "passes-per-match": 34.08,
         "crosses": 40,
-        "cross-accuracy-perc": 25
+        "cross-accuracy-perc": 25,
+        "big-chances-created": 5
       }
     },
     {
       "id": 12,
-      "details":{
-      "club": "Manchester City",
-      "name": "David Silva",
-      "position": "Midfielder",
-      "apperances": 23,
-      "wins": 18,
-      "losses": 3
+      "details": {
+        "club": "Manchester City",
+        "name": "David Silva",
+        "position": "Midfielder",
+        "apperances": 23,
+        "wins": 18,
+        "losses": 3
       },
       "defence": {
         "tackles": 19,
@@ -458,7 +457,6 @@
         "offsides": 0
       },
       "attack": {
-        "goals": 6,
         "freekicks-scored": 1,
         "penalties-scored": 0,
         "shots": 40,
@@ -466,22 +464,23 @@
         "shooting-acc": 43
       },
       "team-play": {
+        "goals": 6,
         "assists": 0,
-        "passes": 1352,
         "passes-per-match": 58.78,
         "crosses": 61,
-        "cross-accuracy-perc": 28
+        "cross-accuracy-perc": 28,
+        "big-chances-created": 12
       }
     },
     {
       "id": 13,
-      "details":{
-      "club": "Manchester City",
-      "name": "Raheem Sterling",
-      "position": "Forward",
-      "apperances": 24,
-      "wins": 18,
-      "losses": 4
+      "details": {
+        "club": "Manchester City",
+        "name": "Raheem Sterling",
+        "position": "Forward",
+        "apperances": 24,
+        "wins": 18,
+        "losses": 4
       },
       "discipline": {
         "yellow-cards": 2,
@@ -490,7 +489,6 @@
         "offsides": 8
       },
       "attack": {
-        "goals": 12,
         "freekicks-scored": 0,
         "penalties-scored": 0,
         "shots": 46,
@@ -498,21 +496,22 @@
         "shooting-acc": 54
       },
       "team-play": {
+        "goals": 12,
         "assists": 9,
-        "passes": 920,
         "passes-per-match": 38.33,
-        "crosses": 58
+        "crosses": 58,
+        "big-chances-created": 11
       }
     },
     {
       "id": 14,
-      "details":{
-      "club": "Manchester City",
-      "name": "Sergio Aguero",
-      "position": "Forward",
-      "apperances": 23,
-      "wins": 18,
-      "losses": 3
+      "details": {
+        "club": "Manchester City",
+        "name": "Sergio Aguero",
+        "position": "Forward",
+        "apperances": 23,
+        "wins": 18,
+        "losses": 3
       },
       "discipline": {
         "yellow-cards": 3,
@@ -521,7 +520,6 @@
         "offsides": 18
       },
       "attack": {
-        "goals": 17,
         "freekicks-scored": 0,
         "penalties-scored": 1,
         "shots": 84,
@@ -529,10 +527,11 @@
         "shooting-acc": 38
       },
       "team-play": {
+        "goals": 17,
         "assists": 6,
-        "passes": 538,
         "passes-per-match": 23.39,
-        "crosses": 7
+        "crosses": 7,
+        "big-chances-created": 5
       }
     }
   ]

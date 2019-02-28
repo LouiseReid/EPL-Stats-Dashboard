@@ -3,14 +3,21 @@ import { Radar } from "vue-chartjs";
 
 export default {
   extends: Radar,
-  props: ["dataValues", "dataLabels"],
+  props: ['data'],
   data() {
     return {
       chartData: {
-        labels: this.dataLabels,
+        labels: [
+          "assists",
+          "passes",
+          "passes per match",
+          "crosses",
+          "cross accuracy %",
+          "big chances created"
+        ],
         datasets: [
           {
-            data: this.dataValues,
+            data: this.data,
             backgroundColor: "#feff0075",
             borderColor: "#f49b42",
             borderWidth: 1,
@@ -28,8 +35,8 @@ export default {
             maxTicksLimit: 3
           },
           pointLabels: {
-            fontColor: "#1d0138",
-            fontSize: 12
+              fontColor: '#1d0138',
+              fontSize: 12
           }
         },
         legend: {

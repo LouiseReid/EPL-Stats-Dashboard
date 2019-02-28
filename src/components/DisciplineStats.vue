@@ -17,7 +17,7 @@
         <strong>Red Cards</strong>
         <p>{{ stats['red-cards']}}</p>
       </div>
-      <div class="container--element">
+      <div v-if="stats.offsides !== undefined" class="container--element">
         <v-icon>mdi-flag</v-icon>
         <strong>Offsides</strong>
         <p>{{ stats.offsides }}</p>

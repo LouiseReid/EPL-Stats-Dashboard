@@ -2,9 +2,10 @@
   <div v-if="player.details" :class="backgroundColour">
     <PlayerDetail :details="player.details"/>
     <div class="stats-container">
-      <DefenceStats v-if="player.details.position !== 'Forward'" :stats="player.defence"/>
+      <DefenceStats v-if="player.details.position === 'Defender' || player.details.position === 'Midfielder'" :stats="player.defence"/>
       <div class="stats-container--inner">
         <DisciplineStats :stats="player.discipline"/>
+        <TeamPlayStats :stats="player['team-play']"/>
       </div>
     </div>
   </div>
@@ -15,6 +16,7 @@ import EventService from "@/services/EventService.js";
 import PlayerDetail from "@/components/PlayerDetail.vue";
 import DefenceStats from "@/components/DefenceStats.vue";
 import DisciplineStats from "@/components/DisciplineStats.vue";
+import TeamPlayStats from "@/components/TeamPlayStats.vue";
 
 export default {
   props: ["id"],
@@ -29,7 +31,8 @@ export default {
   components: {
     PlayerDetail,
     DefenceStats,
-    DisciplineStats
+    DisciplineStats,
+    TeamPlayStats
   },
   computed: {
     backgroundColour() {
