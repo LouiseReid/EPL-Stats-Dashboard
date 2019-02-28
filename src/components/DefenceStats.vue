@@ -78,9 +78,7 @@ export default {
     width: 50%;
   }
   &--radar {
-    align-self: center;
-    position: relative;
-    height: 300px;
+    @include radar;
     width: 340px;
     margin-top: -40px;
   }

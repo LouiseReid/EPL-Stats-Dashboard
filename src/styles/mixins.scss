@@ -12,3 +12,9 @@
     letter-spacing: 2.5px;
     text-align: center;
 }
+
+@mixin radar {
+    align-self: center;
+    position: relative;
+    height: 300px;
+}

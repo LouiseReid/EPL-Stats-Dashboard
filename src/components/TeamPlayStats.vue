@@ -2,7 +2,9 @@
   <div class="wrapper">
     <h2>Team Play</h2>
     <div class="charts">
-      <Radar v-if="dataLabels.length" :dataValues="dataValues" :dataLabels="dataLabels"/>
+      <div class="radar">
+        <Radar v-if="dataLabels.length" :dataValues="dataValues" :dataLabels="dataLabels"/>
+      </div>
     </div>
   </div>
 </template>
@@ -16,18 +18,32 @@ export default {
     Radar
   },
   data() {
-      return {
-          dataValues: [],
-          dataLabels: []
-      }
+    return {
+      dataValues: [],
+      dataLabels: []
+    };
   },
-  mounted(){
-      this.dataValues = Object.values(this.stats)
-      const labels = Object.keys(this.stats)
-      this.dataLabels = labels.map(label => label.replace(/-/g, " "))
+  mounted() {
+    this.dataValues = Object.values(this.stats);
+    const labels = Object.keys(this.stats);
+    this.dataLabels = labels.map(label => label.replace(/-/g, " "));
   }
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.wrapper {
+  @include wrapper;
+  width: 45%;
+}
+
+h2 {
+  @include statHeader;
+}
+
+.radar {
+ @include radar;
+  width: 350px;
+  margin-top: -80px;
+}
 </style>
