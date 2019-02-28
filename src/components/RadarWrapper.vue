@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <h2>Team Play</h2>
+    <h2>{{ header }}</h2>
     <div class="charts">
       <div class="radar">
         <Radar v-if="dataLabels.length" :dataValues="dataValues" :dataLabels="dataLabels"/>
@@ -13,7 +13,7 @@
 import Radar from "@/components/charts/Radar.vue";
 
 export default {
-  props: ["stats"],
+  props: ["header", "stats"],
   components: {
     Radar
   },
@@ -26,7 +26,7 @@ export default {
   mounted() {
     this.dataValues = Object.values(this.stats);
     const labels = Object.keys(this.stats);
-    this.dataLabels = labels.map(label => label.replace(/-/g, " "));
+    this.dataLabels = labels.map(label => label.replace(/-/g, " ").replace('perc', '%'));
   }
 };
 </script>
@@ -40,6 +40,7 @@ export default {
 h2 {
   @include statHeader;
 }
+
 
 .radar {
  @include radar;

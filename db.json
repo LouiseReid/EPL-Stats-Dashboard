@@ -148,8 +148,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 0,
         "shots": 7,
-        "shote-OT": 0,
-        "shooting-acc": 0
+        "shots-OT": 0,
+        "shooting-acc-perc": 0
       },
       "team-play": {
         "goals": 0,
@@ -192,8 +192,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 1,
         "shots": 17,
-        "shote-OT": 5,
-        "shooting-acc": 29
+        "shots-OT": 5,
+        "shooting-acc-perc": 29
       },
       "team-play": {
         "goals": 3,
@@ -224,8 +224,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 1,
         "shots": 57,
-        "shote-OT": 29,
-        "shooting-acc": 51
+        "shots-OT": 29,
+        "shooting-acc-perc": 51
       },
       "team-play": {
         "goals": 9,
@@ -255,8 +255,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 3,
         "shots": 88,
-        "shote-OT": 43,
-        "shooting-acc": 49
+        "shots-OT": 43,
+        "shooting-acc-perc": 49
       },
       "team-play": {
         "goals": 17,
@@ -415,8 +415,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 0,
         "shots": 14,
-        "shote-OT": 8,
-        "shooting-acc": 57
+        "shots-OT": 8,
+        "shooting-acc-perc": 57
       },
       "team-play": {
         "goals": 1,
@@ -460,8 +460,8 @@
         "freekicks-scored": 1,
         "penalties-scored": 0,
         "shots": 40,
-        "shote-OT": 17,
-        "shooting-acc": 43
+        "shots-OT": 17,
+        "shooting-acc-perc": 43
       },
       "team-play": {
         "goals": 6,
@@ -492,8 +492,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 0,
         "shots": 46,
-        "shote-OT": 25,
-        "shooting-acc": 54
+        "shots-OT": 25,
+        "shooting-acc-perc": 54
       },
       "team-play": {
         "goals": 12,
@@ -523,8 +523,8 @@
         "freekicks-scored": 0,
         "penalties-scored": 1,
         "shots": 84,
-        "shote-OT": 32,
-        "shooting-acc": 38
+        "shots-OT": 32,
+        "shooting-acc-perc": 38
       },
       "team-play": {
         "goals": 17,

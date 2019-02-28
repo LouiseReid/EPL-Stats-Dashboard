@@ -5,7 +5,8 @@
       <DefenceStats v-if="player.details.position === 'Defender' || player.details.position === 'Midfielder'" :stats="player.defence"/>
       <div class="stats-container--inner">
         <DisciplineStats :stats="player.discipline"/>
-        <TeamPlayStats :stats="player['team-play']"/>
+        <RadarWrapper header="Team Play" :stats="player['team-play']"/>
+        <RadarWrapper v-if="player.details.position === 'Forward' || player.details.position === 'Midfielder'" header="Attack" :stats="player.attack"/>
       </div>
     </div>
   </div>
@@ -16,7 +17,7 @@ import EventService from "@/services/EventService.js";
 import PlayerDetail from "@/components/PlayerDetail.vue";
 import DefenceStats from "@/components/DefenceStats.vue";
 import DisciplineStats from "@/components/DisciplineStats.vue";
-import TeamPlayStats from "@/components/TeamPlayStats.vue";
+import RadarWrapper from "@/components/RadarWrapper.vue";
 
 export default {
   props: ["id"],
@@ -32,7 +33,7 @@ export default {
     PlayerDetail,
     DefenceStats,
     DisciplineStats,
-    TeamPlayStats
+    RadarWrapper
   },
   computed: {
     backgroundColour() {
