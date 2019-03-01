@@ -3,11 +3,25 @@
     <h2>Attack</h2>
     <div class="charts">
       <div class="charts--polar">
-        <Polar/>
+        <h4>
+          Goal Origins &
+          <span>Expected Goals</span>
+        </h4>
+        <Polar
+          v-if="polarLabels.length"
+          :dataLabels="polarLabels"
+          :dataValues="[
+        this.stats.headed,
+        this.stats['right-foot'],
+        this.stats['left-foot'],
+        this.stats['hit-woodwork'],
+        this.stats['big-chances-missed']
+        ]"
+        />
       </div>
       <div class="charts--radar">
         <Radar
-          v-if="labels.length"
+          v-if="radarLabels.length"
           :dataValues="[ 
         this.stats['freekicks-scored'],
         this.stats['penalties-scored'], 
@@ -15,7 +29,7 @@
         this.stats['shots-OT'], 
         this.stats['shooting-acc-perc']
         ]"
-          :dataLabels="labels"
+          :dataLabels="radarLabels"
         />
       </div>
     </div>
@@ -30,7 +44,8 @@ export default {
   props: ["stats"],
   data() {
     return {
-      labels: []
+      radarLabels: [],
+      polarLabels: []
     };
   },
   components: {
@@ -39,7 +54,8 @@ export default {
   },
   mounted() {
     const attackingLabels = Object.keys(this.stats);
-    const toRemove = [
+
+    const radarToRemove = [
       "freekicks-scored",
       "penalties-scored",
       "shots",
@@ -47,11 +63,23 @@ export default {
       "shooting-acc-perc"
     ];
     const radarLabels = attackingLabels.filter(
-      label => toRemove.indexOf(label) > -1
+      label => radarToRemove.indexOf(label) > -1
     );
-    this.labels = radarLabels.map(label =>
+    this.radarLabels = radarLabels.map(label =>
       label.replace(/-/g, " ").replace("perc", "%")
     );
+
+    const polarToRemove = [
+      "headed",
+      "right-foot",
+      "left-foot",
+      "hit-woodwork",
+      "big-chances-missed"
+    ];
+    const polarLabels = attackingLabels.filter(
+      label => polarToRemove.indexOf(label) > -1
+    );
+    this.polarLabels = polarLabels.map(label => label.replace(/-/g, " "));
   }
 };
 </script>
@@ -66,6 +94,15 @@ export default {
 
 h2 {
   @include statHeader;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-weight: lighter;
+  & span {
+    display: list-item;
+    list-style: none;
+  }
 }
 
 .charts {
@@ -74,13 +111,11 @@ h2 {
   &--polar {
     align-self: center;
     position: relative;
-    height: 300px;
+    height: 280px;
     width: 280px;
   }
   &--radar {
     @include radar;
-      margin-top: -60px;
-
   }
 }
 </style>

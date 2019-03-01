@@ -1,10 +1,8 @@
 <template>
   <div class="wrapper--radar">
-    <h2>{{ header }}</h2>
-    <div class="charts">
-      <div class="radar">
-        <Radar v-if="dataLabels.length" :dataValues="dataValues" :dataLabels="dataLabels"/>
-      </div>
+    <h2 :class="{'header': header === 'Team Play'}">{{ header }}</h2>
+    <div class="radar">
+      <Radar v-if="dataLabels.length" :dataValues="dataValues" :dataLabels="dataLabels"/>
     </div>
   </div>
 </template>
@@ -26,9 +24,15 @@ export default {
   mounted() {
     this.dataValues = Object.values(this.stats);
     const labels = Object.keys(this.stats);
-    this.dataLabels = labels.map(label =>
-      label.replace(/-/g, " ").replace("perc", "%")
-    );
+    this.dataLabels = labels.map(label => {
+      if (label === "big-chances-created" || label === "passes-per-match") {
+        return label
+          .replace(/-/g, " ")
+          .replace("perc", "%")
+          .match(/.{1,11}/g);
+      }
+      return label.replace(/-/g, " ").replace("perc", "%");
+    });
   }
 };
 </script>
@@ -47,6 +51,10 @@ h2 {
   @include statHeader;
 }
 
+.header {
+  align-self: flex-start;
+  margin-left: 20px;
+}
 .radar {
   @include radar;
   margin-top: -100px;
