@@ -2,6 +2,9 @@
   <div class="wrapper--attack-stats">
     <h2>Attack</h2>
     <div class="charts">
+      <div class="charts--polar">
+        <Polar/>
+      </div>
       <div class="charts--radar">
         <Radar
           v-if="labels.length"
@@ -21,6 +24,7 @@
 
 <script>
 import Radar from "@/components/charts/Radar.vue";
+import Polar from "@/components/charts/Polar.vue";
 
 export default {
   props: ["stats"],
@@ -30,7 +34,8 @@ export default {
     };
   },
   components: {
-    Radar
+    Radar,
+    Polar
   },
   mounted() {
     const attackingLabels = Object.keys(this.stats);
@@ -64,8 +69,18 @@ h2 {
 }
 
 .charts {
+  display: flex;
+  flex-direction: column;
+  &--polar {
+    align-self: center;
+    position: relative;
+    height: 300px;
+    width: 280px;
+  }
   &--radar {
     @include radar;
+      margin-top: -60px;
+
   }
 }
 </style>
