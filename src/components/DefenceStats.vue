@@ -68,6 +68,7 @@ export default {
   @include wrapper;
   display: flex;
   flex-direction: column;
+  width: 100%
 }
 
 .charts {

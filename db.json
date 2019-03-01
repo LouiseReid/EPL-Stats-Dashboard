@@ -224,6 +224,11 @@
       "attack": {
         "freekicks-scored": 0,
         "penalties-scored": 1,
+        "headed": 3,
+        "right": 4,
+        "left": 2,
+        "hit-woodword": 1,
+        "big-chances-missed": 8,
         "shots": 57,
         "shots-OT": 29,
         "shooting-acc-perc": 51
@@ -255,6 +260,11 @@
       "attack": {
         "freekicks-scored": 0,
         "penalties-scored": 3,
+        "headed": 0,
+        "right": 2,
+        "left": 15,
+        "hit-woodword": 2,
+        "big-chances-missed": 12,
         "shots": 88,
         "shots-OT": 43,
         "shooting-acc-perc": 49
@@ -492,6 +502,11 @@
       "attack": {
         "freekicks-scored": 0,
         "penalties-scored": 0,
+        "headed": 2,
+        "right": 8,
+        "left": 2,
+        "hit-woodword": 3,
+        "big-chances-missed": 5,
         "shots": 46,
         "shots-OT": 25,
         "shooting-acc-perc": 54
@@ -522,13 +537,18 @@
       },
       "attack": {
         "freekicks-scored": 0,
-        "penalties-scored": 1,
+        "penalties-scored": 2,
+        "headed": 2,
+        "right": 9,
+        "left": 6,
+        "hit-woodword": 5,
+        "big-chances-missed": 9,
         "shots": 84,
         "shots-OT": 32,
         "shooting-acc-perc": 38
       },
       "team-play": {
-        "goals": 17,
+        "goals": 18,
         "assists": 6,
         "passes-per-match": 23.39,
         "crosses": 7,

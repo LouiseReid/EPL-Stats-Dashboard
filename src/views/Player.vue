@@ -10,12 +10,13 @@
         v-if="player.details.position === 'Defender' || player.details.position === 'Midfielder'"
         :stats="player.defence"
       />
+      <AttackStats v-if="player.details.position === 'Forward'" :stats="player.attack"/>
     </div>
 
     <div class="element--3">
       <RadarWrapper header="Team Play" :stats="player['team-play']"/>
       <RadarWrapper
-        v-if="player.details.position === 'Forward' || player.details.position === 'Midfielder'"
+        v-if=" player.details.position === 'Midfielder'"
         header="Attack"
         :stats="player.attack"
       />
@@ -27,6 +28,7 @@
 import EventService from "@/services/EventService.js";
 import PlayerDetail from "@/components/PlayerDetail.vue";
 import DefenceStats from "@/components/DefenceStats.vue";
+import AttackStats from "@/components/AttackStats.vue";
 import DisciplineStats from "@/components/DisciplineStats.vue";
 import RadarWrapper from "@/components/RadarWrapper.vue";
 
@@ -43,6 +45,7 @@ export default {
   components: {
     PlayerDetail,
     DefenceStats,
+    AttackStats,
     DisciplineStats,
     RadarWrapper
   },
