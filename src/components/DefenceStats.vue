@@ -14,12 +14,12 @@
         <Radar
           v-if="defensiveLabels.length"
           :dataValues="[
-            this.stats.tackles, 
-            this.stats['tackle-success-perc'], 
-            this.stats.interceptions, 
-            this.stats.clearances, 
-            this.stats.recoveries, 
-            this.stats['successful-5050s']
+            stats.tackles, 
+            stats['tackle-success-perc'], 
+            stats.interceptions, 
+            stats.clearances, 
+            stats.recoveries, 
+            stats['successful-5050s']
           ]"
           :dataLabels="defensiveLabels"
         />

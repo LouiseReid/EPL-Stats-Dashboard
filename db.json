@@ -16,10 +16,9 @@
         "high-claims": 6,
         "catches": 5,
         "sweeper-clearances": 15,
-        "throw-outs": 144,
         "clean-sheets": 15,
         "goals-conceded": 15,
-        "errors-goal-conceded": 2,
+        "errors-goals-conceded": 2,
         "own-goals": 0
       },
       "discipline": {
@@ -297,7 +296,7 @@
         "throw-outs": 128,
         "clean-sheets": 12,
         "goals-conceded": 20,
-        "errors-goal-conceded": 0,
+        "errors-goals-conceded": 0,
         "own-goals": 0
       },
       "discipline": {

@@ -11,6 +11,7 @@
         :stats="player.defence"
       />
       <AttackStats v-if="player.details.position === 'Forward'" :stats="player.attack"/>
+      <GoalkeeperStats v-if="player.details.position === 'Goalkeeper'" :stats="player.defence"/>
     </div>
 
     <div class="element--3">
@@ -30,6 +31,7 @@ import PlayerDetail from "@/components/PlayerDetail.vue";
 import DefenceStats from "@/components/DefenceStats.vue";
 import AttackStats from "@/components/AttackStats.vue";
 import DisciplineStats from "@/components/DisciplineStats.vue";
+import GoalkeeperStats from "@/components/GoalkeeperStats.vue";
 import RadarWrapper from "@/components/RadarWrapper.vue";
 
 export default {
@@ -47,7 +49,8 @@ export default {
     DefenceStats,
     AttackStats,
     DisciplineStats,
-    RadarWrapper
+    RadarWrapper,
+    GoalkeeperStats
   },
   computed: {
     backgroundColour() {

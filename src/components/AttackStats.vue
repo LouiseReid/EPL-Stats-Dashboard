@@ -10,25 +10,13 @@
         <Polar
           v-if="polarLabels.length"
           :dataLabels="polarLabels"
-          :dataValues="[
-        this.stats.headed,
-        this.stats['right-foot'],
-        this.stats['left-foot'],
-        this.stats['hit-woodwork'],
-        this.stats['big-chances-missed']
-        ]"
+          :dataValues="[stats.headed, stats['right-foot'], stats['left-foot'], stats['hit-woodwork'], stats['big-chances-missed']]"
         />
       </div>
       <div class="charts--radar">
         <Radar
           v-if="radarLabels.length"
-          :dataValues="[ 
-        this.stats['freekicks-scored'],
-        this.stats['penalties-scored'], 
-        this.stats.shots, 
-        this.stats['shots-OT'], 
-        this.stats['shooting-acc-perc']
-        ]"
+          :dataValues="[stats['freekicks-scored'], stats['penalties-scored'], stats.shots, stats['shots-OT'], stats['shooting-acc-perc']]"
           :dataLabels="radarLabels"
         />
       </div>
