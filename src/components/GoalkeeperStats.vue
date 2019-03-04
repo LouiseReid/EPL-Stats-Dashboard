@@ -103,10 +103,7 @@ h4 {
     margin-top: 155px;
   }
   &--bar {
-    align-self: center;
-    position: relative;
-    height: 200px;
-    width: 360px;
+      @include bar
   }
 }
 </style>
