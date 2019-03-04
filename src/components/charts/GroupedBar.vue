@@ -3,15 +3,21 @@ import { Bar } from "vue-chartjs";
 
 export default {
   extends: Bar,
-  props: ["dataLabels", "dataValues", "colour"],
+  props: ["dataLabels", "wonDataValues", "lostDataValues"],
   data() {
     return {
       chartData: {
         labels: this.dataLabels,
         datasets: [
           {
-            data: this.dataValues,
-            backgroundColor: this.colour || "#fcd36c"
+            label: "won",
+            data: this.wonDataValues,
+            backgroundColor: "#63bc4d"
+          },
+          {
+            label: "lost",
+            data: this.lostDataValues,
+            backgroundColor: "#b65254"
           }
         ]
       },
