@@ -9,17 +9,11 @@
 
 <script>
 import NavBar from "@/components/Nav.vue";
-import { mapActions, mapGetters } from "vuex";
+import { mapGetters } from "vuex";
 
 export default {
-  methods: {
-    ...mapActions(["getPlayers"])
-  },
   computed: {
     ...mapGetters(["clubs", "playersForClub"])
-  },
-  created() {
-    this.getPlayers();
   },
   components: {
     NavBar
