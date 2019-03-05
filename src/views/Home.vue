@@ -1,5 +1,6 @@
 <template>
   <div id="wrapper">
+    <slot name="nav"/>
     <section id="header">
       <h1>English Premier League Player Stats 2018-19</h1>
       <p>All stats correct as of game week 30</p>

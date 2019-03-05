@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" :class="{'mobile-nav': mobileNav}">
       <NavBar :clubs="clubs" :players="playersForClub"/>
     </div>
-    <router-view :key="$route.fullPath" class="view"/>
+    <router-view :key="$route.fullPath" class="view">
+      <v-icon slot="nav" id="nav-toggle" @click="mobileNav = !mobileNav">mdi-menu</v-icon>
+    </router-view>
   </div>
 </template>
 
@@ -12,6 +14,11 @@ import NavBar from "@/components/Nav.vue";
 import { mapGetters } from "vuex";
 
 export default {
+  data() {
+    return {
+      mobileNav: false
+    };
+  },
   computed: {
     ...mapGetters(["clubs", "playersForClub"])
   },
@@ -22,25 +29,53 @@ export default {
 </script>
 
 <style lang="scss">
-
 * {
   margin: 0;
   padding: 0;
 }
 #app {
   display: flex;
-  font-family: 'Padauk', sans-serif;
+  font-family: "Padauk", sans-serif;
 }
- #nav {
+#nav {
   height: 100vh;
   width: 10vw;
   background: $primary;
   margin: 0;
-  overflow-y: scroll
- }
+  overflow-y: scroll;
+}
 
- .view {
-   width: 90vw;
-   height: 100vh;
- }
+#nav-toggle {
+  display: none;
+}
+
+.view {
+  width: 90vw;
+  height: 100vh;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  #nav {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    transition: 0.5s;
+  }
+
+  #nav-toggle {
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+  #nav.mobile-nav {
+    position: unset;
+    width: 30vw;
+    transition: 0.5s;
+  }
+
+  .view {
+    width: 100vw;
+  }
+}
 </style>
