@@ -114,6 +114,7 @@ export default {
   background: linear-gradient(rgba(178, 166, 219, 0.75)),
     url("../assets/stadium.jpg");
   background-size: cover;
+  overflow: scroll;
 }
 
 h1,
@@ -146,4 +147,22 @@ p {
     padding-bottom: 20px;
   }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+  .charts {
+    flex-direction: column;
+    &--bar {
+      height: 180px;
+      width: 215px;
+    }
+  }
+
+  .element {
+    width: 68%;
+    margin: 10px 0;
+  }
+ }
 </style>
