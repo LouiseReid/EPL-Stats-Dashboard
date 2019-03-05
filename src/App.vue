@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" :class="{'mobile-nav': mobileNav}">
-      <NavBar :clubs="clubs" :players="playersForClub"/>
+      <NavBar :clubs="clubs" :players="playersForClub" :key="$route.fullPath"/>
     </div>
     <router-view :key="$route.fullPath" class="view">
       <v-icon slot="nav" id="nav-toggle" @click="mobileNav = !mobileNav">mdi-menu</v-icon>
