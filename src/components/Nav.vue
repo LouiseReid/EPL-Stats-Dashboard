@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link v-if="$route.name !== 'Home'" :to="{name: 'Home'}" @click.native="resetPlayersForClub">Home</router-link>
-    <template v-if="players.length === 0 && $route.name === 'Home'">
+    <template v-if="players.length === 0">
       <router-link
         v-for="club in clubs"
         :key="club"
