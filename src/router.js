@@ -7,7 +7,6 @@ import Player from '@/views/Player.vue';
 Vue.use(Router);
 
 const router = new Router({
-  mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
