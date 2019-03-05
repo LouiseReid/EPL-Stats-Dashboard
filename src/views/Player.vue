@@ -54,11 +54,28 @@ export default {
   },
   computed: {
     backgroundColour() {
-      if (this.player.details.club === "Liverpool") {
-        return "liverpool";
-      }
-      if (this.player.details.club === "Manchester City") {
-        return "mancity";
+      switch (this.player.details.club) {
+        case "Liverpool":
+          return "liverpool";
+          break;
+        case "Manchester City":
+          return "mancity";
+          break;
+        case "Chelsea":
+          return "chelsea";
+          break;
+        case "Arsenal":
+          return "arsenal";
+          break;
+        case "Manchester United":
+          return "manutd";
+          break;
+        case "Tottenham Hotspur":
+          return "tottenham";
+          break;
+        default:
+          null;
+          break;
       }
     }
   }
@@ -68,7 +85,7 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
 }
 .element--1 {
   display: flex;
@@ -89,11 +106,26 @@ export default {
   width: 35%;
 }
 
+.arsenal {
+  background-color: $arsenal
+}
 .liverpool {
   background-color: $liverpool;
 }
 
 .mancity {
   background-color: $mancity;
+}
+
+.manutd {
+  background-color: $manutd
+}
+
+.chelsea {
+  background-color: $chelsea
+}
+
+.tottenham {
+  background-color: $tottenham
 }
 </style>

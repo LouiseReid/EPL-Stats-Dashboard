@@ -36,6 +36,7 @@ export default {
   width: 10vw;
   background: $primary;
   margin: 0;
+  overflow-y: scroll
  }
 
  .view {

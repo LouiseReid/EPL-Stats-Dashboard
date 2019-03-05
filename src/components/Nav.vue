@@ -36,11 +36,13 @@ div {
 }
 
 a {
-  color: #ffffff;
+  color: #cecece;
+  border: 2px solid $primary-dark;
   text-decoration: none;
-  margin: 0 5px;
+  padding: 0 5px;
+  font-size: 18px;
   &:not(:first-child) {
-    padding-top: 10px;
+    margin-top: 10px;
   }
 }
 </style>
