@@ -5,19 +5,17 @@
         "club": "Liverpool",
         "name": "Alisson",
         "position": "Goalkeeper",
-        "apperances": 27,
-        "wins": 20,
+        "apperances": 29,
+        "wins": 21,
         "losses": 1
       },
       "defence": {
-        "saves": 56,
         "penalties-saved": 0,
-        "punches": 12,
-        "high-claims": 6,
+        "punches": 13,
+        "high-claims": 8,
         "catches": 5,
         "sweeper-clearances": 15,
-        "clean-sheets": 15,
-        "goals-conceded": 15,
+        "clean-sheets": 17,
         "errors-goals-conceded": 2,
         "own-goals": 0
       },
@@ -29,7 +27,7 @@
       "team-play": {
         "goals": 0,
         "assists": 0,
-        "passes-per-match": 27.89,
+        "passes-per-match": 28.10,
         "accurate-long-balls": 136
       }
     },
@@ -39,108 +37,216 @@
         "club": "Liverpool",
         "name": "Virgil van Dijk",
         "position": "Defender",
-        "apperances": 27,
-        "wins": 20,
+        "apperances": 29,
+        "wins": 21,
         "losses": 1
       },
       "defence": {
-        "clean-sheets": 14,
-        "goals-conceded": 15,
-        "tackles": 24,
-        "tackle-success-perc": 75,
-        "blocked-shots": 7,
-        "interceptions": 27,
-        "clearances": 137,
-        "recoveries": 131,
-        "duels-won": 160,
-        "duels-lost": 51,
+        "clean-sheets": 16,
+        "tackles": 27,
+        "tackle-success-perc": 74,
+        "interceptions": 32,
+        "clearances": 159,
+        "recoveries": 142,
+        "duels-won": 180,
+        "duels-lost": 56,
         "successful-5050s": 8,
-        "aerial-battles-won": 117,
-        "aerial-battles-lost": 40
+        "aerial-battles-won": 134,
+        "aerial-battles-lost": 43
       },
       "discipline": {
         "yellow-cards": 1,
         "red-cards": 0,
-        "fouls": 11,
-        "offsides": 0
+        "fouls": 12,
+        "offsides": 1
       },
       "team-play": {
-        "goals": 1,
+        "goals": 3,
         "assists": 1,
-        "passes-per-match": 81.15,
+        "passes-per-match": 80.03,
         "crosses": 0,
         "cross-accuracy-perc": 0,
-        "big-chances-created": 2
+        "big-chances-created": 3
       }
     },
     {
       "id": 3,
       "details": {
         "club": "Liverpool",
-        "name": "Andrew Robertson",
+        "name": "Joseph Gomez",
         "position": "Defender",
-        "apperances": 25,
-        "wins": 18,
-        "losses": 1
+        "apperances": 13,
+        "wins": 10,
+        "losses": 0
       },
       "defence": {
-        "clean-sheets": 14,
-        "goals-conceded": 13,
-        "tackles": 64,
-        "tackle-success-perc": 64,
-        "last-man-takles": 0,
-        "blocked-shots": 2,
-        "interceptions": 21,
-        "clearances": 36,
-        "recoveries": 160,
-        "duels-won": 109,
-        "duels-lost": 80,
-        "successful-5050s": 19,
-        "aerial-battles-won": 14,
-        "aerial-battles-lost": 16
+        "clean-sheets": 7,
+        "tackles": 17,
+        "tackle-success-perc": 65,
+        "interceptions": 14,
+        "clearances": 39,
+        "recoveries": 71,
+        "duels-won": 54,
+        "duels-lost": 40,
+        "successful-5050s": 4,
+        "aerial-battles-won": 24,
+        "aerial-battles-lost": 19
       },
       "discipline": {
         "yellow-cards": 2,
         "red-cards": 0,
-        "fouls": 10,
-        "offsides": 1
+        "fouls": 12,
+        "offsides": 0
       },
       "team-play": {
         "goals": 0,
-        "assists": 4,
-        "passes-per-match": 66.80,
-        "crosses": 84,
-        "cross-accuracy-perc": 12,
-        "big-chances-created": 10
+        "assists": 0,
+        "passes-per-match": 59.31,
+        "crosses": 7,
+        "cross-accuracy-perc": 29,
+        "big-chances-created": 0
       }
     },
     {
       "id": 4,
       "details": {
         "club": "Liverpool",
-        "name": "Jordan Henderson",
-        "position": "Midfielder",
-        "apperances": 22,
-        "wins": 17,
+        "name": "Joel Matip",
+        "position": "Defender",
+        "apperances": 15,
+        "wins": 10,
+        "losses": 0
+      },
+      "defence": {
+        "clean-sheets": 6,
+        "tackles": 25,
+        "tackle-success-perc": 64,
+        "interceptions": 18,
+        "clearances": 50,
+        "recoveries": 56,
+        "duels-won": 79,
+        "duels-lost": 35,
+        "successful-5050s": 5,
+        "aerial-battles-won": 39,
+        "aerial-battles-lost": 17
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 10,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 0,
+        "passes-per-match": 56.27,
+        "crosses": 0,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 5,
+      "details": {
+        "club": "Liverpool",
+        "name": "Andrew Robertson",
+        "position": "Defender",
+        "apperances": 27,
+        "wins": 19,
         "losses": 1
       },
       "defence": {
-        "tackles": 33,
-        "tackle-success-perc": 88,
-        "blocked-shots": 1,
-        "interceptions": 18,
-        "clearances": 12,
-        "recoveries": 120,
+        "clean-sheets": 16,
+        "tackles": 69,
+        "tackle-success-perc": 62,
+        "interceptions": 24,
+        "clearances": 42,
+        "recoveries": 172,
+        "duels-won": 122,
+        "duels-lost": 98,
+        "successful-5050s": 22,
+        "aerial-battles-won": 19,
+        "aerial-battles-lost": 22
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 16,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 8,
+        "passes-per-match": 66.00,
+        "crosses": 90,
+        "cross-accuracy-perc": 12,
+        "big-chances-created": 10
+      }
+    },
+    {
+      "id": 6,
+      "details": {
+        "club": "Liverpool",
+        "name": "Trent Alexander-Arnold",
+        "position": "Defender",
+        "apperances": 20,
+        "wins": 16,
+        "losses": 1
+      },
+      "defence": {
+        "clean-sheets": 10,
+        "tackles": 39,
+        "tackle-success-perc": 72,
+        "interceptions": 25,
+        "clearances": 41,
+        "recoveries": 107,
         "duels-won": 60,
-        "duels-lost": 54,
-        "successful-5050s": 4,
-        "aerial-battles-won": 16,
+        "duels-lost": 79,
+        "successful-5050s": 10,
+        "aerial-battles-won": 6,
+        "aerial-battles-lost": 22
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 3
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 6,
+        "passes-per-match": 55.20,
+        "crosses": 127,
+        "cross-accuracy-perc": 27,
+        "big-chances-created": 7
+      }
+    },
+    {
+      "id": 7,
+      "details": {
+        "club": "Liverpool",
+        "name": "Jordan Henderson",
+        "position": "Midfielder",
+        "apperances": 24,
+        "wins": 18,
+        "losses": 1
+      },
+      "defence": {
+        "tackles": 35,
+        "tackle-success-perc": 89,
+        "interceptions": 21,
+        "clearances": 12,
+        "recoveries": 124,
+        "duels-won": 69,
+        "duels-lost": 56,
+        "successful-5050s": 6,
+        "aerial-battles-won": 20,
         "aerial-battles-lost": 16
       },
       "discipline": {
         "yellow-cards": 0,
         "red-cards": 1,
-        "fouls": 17,
+        "fouls": 18,
         "offsides": 1
       },
       "attack": {
@@ -153,39 +259,38 @@
       "team-play": {
         "goals": 0,
         "assists": 0,
-        "passes-per-match": 57.09,
-        "crosses": 24,
+        "passes-per-match": 55.29,
+        "crosses": 29,
         "cross-accuracy-perc": 17,
         "big-chances-created": 0
       }
     },
     {
-      "id": 5,
+      "id": 8,
       "details": {
         "club": "Liverpool",
         "name": "James Milner",
         "position": "Midfielder",
-        "apperances": 22,
-        "wins": 16,
+        "apperances": 24,
+        "wins": 17,
         "losses": 1
       },
       "defence": {
-        "tackles": 34,
-        "tackle-success-perc": 56,
-        "blocked-shots": 9,
+        "tackles": 37,
+        "tackle-success-perc": 57,
         "interceptions": 18,
         "clearances": 16,
-        "recoveries": 114,
-        "duels-won": 83,
-        "duels-lost": 77,
-        "successful-5050s": 10,
+        "recoveries": 125,
+        "duels-won": 93,
+        "duels-lost": 85,
+        "successful-5050s": 14,
         "aerial-battles-won": 19,
         "aerial-battles-lost": 23
       },
       "discipline": {
         "yellow-cards": 3,
         "red-cards": 1,
-        "fouls": 25,
+        "fouls": 26,
         "offsides": 0
       },
       "attack": {
@@ -198,19 +303,151 @@
       "team-play": {
         "goals": 3,
         "assists": 4,
-        "passes-per-match": 52.82,
-        "crosses": 111,
-        "cross-accuracy-perc": 29,
+        "passes-per-match": 51.88,
+        "crosses": 120,
+        "cross-accuracy-perc": 28,
         "big-chances-created": 6
       }
     },
     {
-      "id": 6,
+      "id": 9,
+      "details": {
+        "club": "Liverpool",
+        "name": "Georginio Wijnaldum",
+        "position": "Midfielder",
+        "apperances": 26,
+        "wins": 19,
+        "losses": 1
+      },
+      "defence": {
+        "tackles": 28,
+        "tackle-success-perc": 61,
+        "interceptions": 12,
+        "clearances": 17,
+        "recoveries": 140,
+        "duels-won": 99,
+        "duels-lost": 91,
+        "successful-5050s": 23,
+        "aerial-battles-won": 21,
+        "aerial-battles-lost": 23
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 15,
+        "offsides": 2
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 24,
+        "shots-OT": 9,
+        "shooting-acc-perc": 38
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 0,
+        "passes-per-match": 53.12,
+        "crosses": 10,
+        "cross-accuracy-perc": 20,
+        "big-chances-created": 1
+      }
+    },
+    {
+      "id": 10,
+      "details": {
+        "club": "Liverpool",
+        "name": "Fabinho",
+        "position": "Midfielder",
+        "apperances": 20,
+        "wins": 14,
+        "losses": 1
+      },
+      "defence": {
+        "tackles": 42,
+        "tackle-success-perc": 50,
+        "interceptions": 21,
+        "clearances": 20,
+        "recoveries": 85,
+        "duels-won": 108,
+        "duels-lost": 80,
+        "successful-5050s": 9,
+        "aerial-battles-won": 38,
+        "aerial-battles-lost": 25
+      },
+      "discipline": {
+        "yellow-cards": 4,
+        "red-cards": 0,
+        "fouls": 21,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 14,
+        "shots-OT": 4,
+        "shooting-acc-perc": 29
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 2,
+        "passes-per-match": 57.50,
+        "crosses": 8,
+        "cross-accuracy-perc": 25,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 11,
+      "details": {
+        "club": "Liverpool",
+        "name": "Naby Keita",
+        "position": "Midfielder",
+        "apperances": 20,
+        "wins": 16,
+        "losses": 0
+      },
+      "defence": {
+        "tackles": 23,
+        "tackle-success-perc": 35,
+        "interceptions": 8,
+        "clearances": 8,
+        "recoveries": 89,
+        "duels-won": 61,
+        "duels-lost": 95,
+        "successful-5050s": 20,
+        "aerial-battles-won": 7,
+        "aerial-battles-lost": 14
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 21,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 21,
+        "shots-OT": 8,
+        "shooting-acc-perc": 38
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 1,
+        "passes-per-match": 38.90,
+        "crosses": 5,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 1
+      }
+    },
+    {
+      "id": 12,
       "details": {
         "club": "Liverpool",
         "name": "Roberto Firmino",
         "position": "Forward",
-        "apperances": 27,
+        "apperances": 28,
         "wins": 20,
         "losses": 1
       },
@@ -228,33 +465,33 @@
         "left-foot": 2,
         "hit-woodwork": 1,
         "big-chances-missed": 8,
-        "shots": 57,
+        "shots": 58,
         "shots-OT": 29,
-        "shooting-acc-perc": 51
+        "shooting-acc-perc": 50
       },
       "team-play": {
         "goals": 9,
         "assists": 4,
-        "passes-per-match": 38.15,
+        "passes-per-match": 37.29,
         "crosses": 6,
         "big-chances-created": 6
       }
     },
     {
-      "id": 7,
+      "id": 13,
       "details": {
         "club": "Liverpool",
         "name": "Mohamed Salah",
         "position": "Forward",
-        "apperances": 27,
-        "wins": 20,
+        "apperances": 29,
+        "wins": 21,
         "losses": 1
       },
       "discipline": {
         "yellow-cards": 0,
         "red-cards": 0,
         "fouls": 21,
-        "offsides": 21
+        "offsides": 22
       },
       "attack": {
         "freekicks-scored": 0,
@@ -263,40 +500,1217 @@
         "right-foot": 2,
         "left-foot": 15,
         "hit-woodwork": 2,
-        "big-chances-missed": 12,
-        "shots": 88,
-        "shots-OT": 43,
-        "shooting-acc-perc": 49
+        "big-chances-missed": 14,
+        "shots": 94,
+        "shots-OT": 47,
+        "shooting-acc-perc": 50
       },
       "team-play": {
         "goals": 17,
         "assists": 7,
-        "passes-per-match": 28.42,
+        "passes-per-match": 28.76,
         "crosses": 49,
         "big-chances-created": 13
       }
     },
     {
-      "id": 8,
+      "id": 14,
+      "details": {
+        "club": "Liverpool",
+        "name": "Sadio Mane",
+        "position": "Forward",
+        "apperances": 27,
+        "wins": 19,
+        "losses": 1
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 32,
+        "offsides": 20
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 2,
+        "right-foot": 8,
+        "left-foot": 4,
+        "hit-woodwork": 2,
+        "big-chances-missed": 6,
+        "shots": 62,
+        "shots-OT": 31,
+        "shooting-acc-perc": 50
+      },
+      "team-play": {
+        "goals": 14,
+        "assists": 1,
+        "passes-per-match": 32.70,
+        "crosses": 25,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 15,
+      "details": {
+        "club": "Arsenal",
+        "name": "Bernd Leno",
+        "position": "Goalkeeper",
+        "apperances": 23,
+        "wins": 13,
+        "losses": 4
+      },
+      "defence": {
+        "penalties-saved": 0,
+        "punches": 14,
+        "high-claims": 8,
+        "catches": 4,
+        "sweeper-clearances": 9,
+        "clean-sheets": 3,
+        "errors-goals-conceded": 3,
+        "own-goals": 0
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 0
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 30.57,
+        "accurate-long-balls": 128
+      }
+    },
+    {
+      "id": 16,
+      "details": {
+        "club": "Arsenal",
+        "name": "Hector Bellerin",
+        "position": "Defender",
+        "apperances": 19,
+        "wins": 11,
+        "losses": 4
+      },
+      "defence": {
+        "clean-sheets": 3,
+        "tackles": 15,
+        "tackle-success-perc": 80,
+        "interceptions": 20,
+        "clearances": 33,
+        "recoveries": 79,
+        "duels-won": 57,
+        "duels-lost": 69,
+        "successful-5050s": 15,
+        "aerial-battles-won": 21,
+        "aerial-battles-lost": 24
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 16,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 5,
+        "passes-per-match": 41.32,
+        "crosses": 39,
+        "cross-accuracy-perc": 23,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 17,
+      "details": {
+        "club": "Arsenal",
+        "name": "Laurent Koscielny",
+        "position": "Defender",
+        "apperances": 11,
+        "wins": 5,
+        "losses": 4
+      },
+      "defence": {
+        "clean-sheets": 1,
+        "tackles": 14,
+        "tackle-success-perc": 50,
+        "interceptions": 22,
+        "clearances": 54,
+        "recoveries": 48,
+        "duels-won": 43,
+        "duels-lost": 25,
+        "successful-5050s": 0,
+        "aerial-battles-won": 18,
+        "aerial-battles-lost": 15
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 6,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 0,
+        "passes-per-match": 52.36,
+        "crosses": 0,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 18,
+      "details": {
+        "club": "Arsenal",
+        "name": "Nacho Monreal",
+        "position": "Defender",
+        "apperances": 15,
+        "wins": 11,
+        "losses": 3
+      },
+      "defence": {
+        "clean-sheets": 2,
+        "tackles": 24,
+        "tackle-success-perc": 50,
+        "interceptions": 20,
+        "clearances": 40,
+        "recoveries": 60,
+        "duels-won": 65,
+        "duels-lost": 48,
+        "successful-5050s": 4,
+        "aerial-battles-won": 22,
+        "aerial-battles-lost": 24
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 3,
+        "passes-per-match": 49.20,
+        "crosses": 20,
+        "cross-accuracy-perc": 10,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 19,
+      "details": {
+        "club": "Arsenal",
+        "name": "Shkodran Mustafi",
+        "position": "Defender",
+        "apperances": 24,
+        "wins": 14,
+        "losses": 5
+      },
+      "defence": {
+        "clean-sheets": 3,
+        "tackles": 47,
+        "tackle-success-perc": 68,
+        "interceptions": 46,
+        "clearances": 126,
+        "recoveries": 82,
+        "duels-won": 137,
+        "duels-lost": 90,
+        "successful-5050s": 5,
+        "aerial-battles-won": 81,
+        "aerial-battles-lost": 46
+      },
+      "discipline": {
+        "yellow-cards": 6,
+        "red-cards": 0,
+        "fouls": 32,
+        "offsides": 3
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 0,
+        "passes-per-match": 54.96,
+        "crosses": 9,
+        "cross-accuracy-perc": 11,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 20,
+      "details": {
+        "club": "Arsenal",
+        "name": "Sead Kolasinac",
+        "position": "Defender",
+        "apperances": 17,
+        "wins": 10,
+        "losses": 3
+      },
+      "defence": {
+        "clean-sheets": 3,
+        "tackles": 28,
+        "tackle-success-perc": 71,
+        "interceptions": 16,
+        "clearances": 22,
+        "recoveries": 93,
+        "duels-won": 57,
+        "duels-lost": 65,
+        "successful-5050s": 9,
+        "aerial-battles-won": 14,
+        "aerial-battles-lost": 21
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 14,
+        "offsides": 7
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 5,
+        "passes-per-match": 42.88,
+        "crosses": 32,
+        "cross-accuracy-perc": 31,
+        "big-chances-created": 9
+      }
+    },
+    {
+      "id": 21,
+      "details": {
+        "club": "Arsenal",
+        "name": "Sokraits",
+        "position": "Defender",
+        "apperances": 19,
+        "wins": 12,
+        "losses": 4
+      },
+      "defence": {
+        "clean-sheets": 3,
+        "tackles": 31,
+        "tackle-success-perc": 55,
+        "interceptions": 20,
+        "clearances": 88,
+        "recoveries": 80,
+        "duels-won": 85,
+        "duels-lost": 71,
+        "successful-5050s": 3,
+        "aerial-battles-won": 36,
+        "aerial-battles-lost": 29
+      },
+      "discipline": {
+        "yellow-cards": 8,
+        "red-cards": 0,
+        "fouls": 29,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 2,
+        "passes-per-match": 56.95,
+        "crosses": 0,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 1
+      }
+    },
+    {
+      "id": 22,
+      "details": {
+        "club": "Arsenal",
+        "name": "Henrikh Mkhitaryan",
+        "position": "Midfielder",
+        "apperances": 18,
+        "wins": 11,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 25,
+        "tackle-success-perc": 84,
+        "interceptions": 11,
+        "clearances": 4,
+        "recoveries": 90,
+        "duels-won": 62,
+        "duels-lost": 89,
+        "successful-5050s": 13,
+        "aerial-battles-won": 16,
+        "aerial-battles-lost": 21
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 20,
+        "offsides": 3
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 35,
+        "shots-OT": 10,
+        "shooting-acc-perc": 29
+      },
+      "team-play": {
+        "goals": 6,
+        "assists": 4,
+        "passes-per-match": 30.33,
+        "crosses": 41,
+        "cross-accuracy-perc": 10,
+        "big-chances-created": 7
+      }
+    },
+    {
+      "id": 23,
+      "details": {
+        "club": "Arsenal",
+        "name": "Aaron Ramsey",
+        "position": "Midfielder",
+        "apperances": 24,
+        "wins": 13,
+        "losses": 5
+      },
+      "defence": {
+        "tackles": 21,
+        "tackle-success-perc": 52,
+        "interceptions": 7,
+        "clearances": 1,
+        "recoveries": 63,
+        "duels-won": 52,
+        "duels-lost": 82,
+        "successful-5050s": 10,
+        "aerial-battles-won": 9,
+        "aerial-battles-lost": 19
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 18,
+        "offsides": 4
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 23,
+        "shots-OT": 11,
+        "shooting-acc-perc": 48
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 6,
+        "passes-per-match": 23.38,
+        "crosses": 12,
+        "cross-accuracy-perc": 33,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 24,
+      "details": {
+        "club": "Arsenal",
+        "name": "Mesut Ozil",
+        "position": "Midfielder",
+        "apperances": 17,
+        "wins": 9,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 11,
+        "tackle-success-perc": 45,
+        "interceptions": 3,
+        "clearances": 2,
+        "recoveries": 56,
+        "duels-won": 48,
+        "duels-lost": 46,
+        "successful-5050s": 13,
+        "aerial-battles-won": 5,
+        "aerial-battles-lost": 5
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 6,
+        "offsides": 5
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 8,
+        "shots-OT": 4,
+        "shooting-acc-perc": 50
+      },
+      "team-play": {
+        "goals": 4,
+        "assists": 2,
+        "passes-per-match": 42.71,
+        "crosses": 25,
+        "cross-accuracy-perc": 44,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 25,
+      "details": {
+        "club": "Arsenal",
+        "name": "Alex Iwobi",
+        "position": "Midfielder",
+        "apperances": 26,
+        "wins": 15,
+        "losses": 5
+      },
+      "defence": {
+        "tackles": 19,
+        "tackle-success-perc": 53,
+        "interceptions": 10,
+        "clearances": 9,
+        "recoveries": 78,
+        "duels-won": 68,
+        "duels-lost": 116,
+        "successful-5050s": 39,
+        "aerial-battles-won": 3,
+        "aerial-battles-lost": 18
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 8,
+        "offsides": 2
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 27,
+        "shots-OT": 11,
+        "shooting-acc-perc": 41
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 4,
+        "passes-per-match": 26.23,
+        "crosses": 29,
+        "cross-accuracy-perc": 24,
+        "big-chances-created": 8
+      }
+    },
+    {
+      "id": 26,
+      "details": {
+        "club": "Arsenal",
+        "name": "Granit Xhaka",
+        "position": "Midfielder",
+        "apperances": 24,
+        "wins": 14,
+        "losses": 5
+      },
+      "defence": {
+        "tackles": 46,
+        "tackle-success-perc": 54,
+        "interceptions": 32,
+        "clearances": 47,
+        "recoveries": 176,
+        "duels-won": 141,
+        "duels-lost": 115,
+        "successful-5050s": 6,
+        "aerial-battles-won": 45,
+        "aerial-battles-lost": 31
+      },
+      "discipline": {
+        "yellow-cards": 8,
+        "red-cards": 0,
+        "fouls": 36,
+        "offsides": 1
+      },
+      "attack": {
+        "freekicks-scored": 2,
+        "penalties-scored": 0,
+        "shots": 22,
+        "shots-OT": 9,
+        "shooting-acc-perc": 41
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 1,
+        "passes-per-match": 77.38,
+        "crosses": 95,
+        "cross-accuracy-perc": 21,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 27,
+      "details": {
+        "club": "Arsenal",
+        "name": "Lucas Torreira",
+        "position": "Midfielder",
+        "apperances": 29,
+        "wins": 17,
+        "losses": 6
+      },
+      "defence": {
+        "tackles": 59,
+        "tackle-success-perc": 59,
+        "interceptions": 35,
+        "clearances": 27,
+        "recoveries": 185,
+        "duels-won": 151,
+        "duels-lost": 102,
+        "successful-5050s": 12,
+        "aerial-battles-won": 18,
+        "aerial-battles-lost": 19
+      },
+      "discipline": {
+        "yellow-cards": 6,
+        "red-cards": 1,
+        "fouls": 30,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 21,
+        "shots-OT": 6,
+        "shooting-acc-perc": 29
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 2,
+        "passes-per-match": 48.86,
+        "crosses": 25,
+        "cross-accuracy-perc": 32,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 28,
+      "details": {
+        "club": "Arsenal",
+        "name": "Matteo Guendouzi",
+        "position": "Midfielder",
+        "apperances": 25,
+        "wins": 14,
+        "losses": 6
+      },
+      "defence": {
+        "tackles": 39,
+        "tackle-success-perc": 59,
+        "interceptions": 27,
+        "clearances": 18,
+        "recoveries": 125,
+        "duels-won": 112,
+        "duels-lost": 85,
+        "successful-5050s": 16,
+        "aerial-battles-won": 11,
+        "aerial-battles-lost": 17
+      },
+      "discipline": {
+        "yellow-cards": 5,
+        "red-cards": 0,
+        "fouls": 17,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 16,
+        "shots-OT": 4,
+        "shooting-acc-perc": 25
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 48.32,
+        "crosses": 11,
+        "cross-accuracy-perc": 9,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 29,
+      "details": {
+        "club": "Arsenal",
+        "name": "Alexandre Lacazette",
+        "position": "Forward",
+        "apperances": 28,
+        "wins": 16,
+        "losses": 6
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 42,
+        "offsides": 17
+      },
+      "attack": {
+        "freekicks-scored": 1,
+        "penalties-scored": 0,
+        "headed": 0,
+        "right-foot": 11,
+        "left-foot": 1,
+        "hit-woodwork": 1,
+        "big-chances-missed": 11,
+        "shots": 58,
+        "shots-OT": 25,
+        "shooting-acc-perc": 43
+      },
+      "team-play": {
+        "goals": 12,
+        "assists": 6,
+        "passes-per-match": 20.96,
+        "crosses": 20,
+        "big-chances-created": 5
+      }
+    },
+    {
+      "id": 30,
+      "details": {
+        "club": "Arsenal",
+        "name": "Pierre-Emerick Aubameyang",
+        "position": "Forward",
+        "apperances": 28,
+        "wins": 16,
+        "losses": 6
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 11,
+        "offsides": 19
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 2,
+        "headed": 0,
+        "right-foot": 15,
+        "left-foot": 1,
+        "hit-woodwork": 3,
+        "big-chances-missed": 19,
+        "shots": 71,
+        "shots-OT": 30,
+        "shooting-acc-perc": 42
+      },
+      "team-play": {
+        "goals": 16,
+        "assists": 4,
+        "passes-per-match": 19.71,
+        "crosses": 29,
+        "big-chances-created": 6
+      }
+    },
+    {
+      "id": 31,
+      "details": {
+        "club": "Chelsea",
+        "name": "Kepa Arrizabalaga",
+        "position": "Goalkeeper",
+        "apperances": 27,
+        "wins": 16,
+        "losses": 6
+      },
+      "defence": {
+        "penalties-saved": 0,
+        "punches": 7,
+        "high-claims": 9,
+        "catches": 3,
+        "sweeper-clearances": 6,
+        "clean-sheets": 11,
+        "errors-goals-conceded": 0,
+        "own-goals": 0
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 0
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 29.04,
+        "accurate-long-balls": 140
+      }
+    },
+    {
+      "id": 32,
+      "details": {
+        "club": "Chelsea",
+        "name": "Antonio Rudiger",
+        "position": "Defender",
+        "apperances": 27,
+        "wins": 16,
+        "losses": 6
+      },
+      "defence": {
+        "clean-sheets": 10,
+        "tackles": 33,
+        "tackle-success-perc": 45,
+        "interceptions": 27,
+        "clearances": 81,
+        "recoveries": 174,
+        "duels-won": 123,
+        "duels-lost": 105,
+        "successful-5050s": 4,
+        "aerial-battles-won": 74,
+        "aerial-battles-lost": 67
+      },
+      "discipline": {
+        "yellow-cards": 4,
+        "red-cards": 0,
+        "fouls": 23,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 0,
+        "passes-per-match": 80.30,
+        "crosses": 1,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 33,
+      "details": {
+        "club": "Chelsea",
+        "name": "Marcos Alonso",
+        "position": "Defender",
+        "apperances": 26,
+        "wins": 16,
+        "losses": 5
+      },
+      "defence": {
+        "clean-sheets": 11,
+        "tackles": 57,
+        "tackle-success-perc": 60,
+        "interceptions": 30,
+        "clearances": 66,
+        "recoveries": 184,
+        "duels-won": 151,
+        "duels-lost": 119,
+        "successful-5050s": 15,
+        "aerial-battles-won": 47,
+        "aerial-battles-lost": 46
+      },
+      "discipline": {
+        "yellow-cards": 5,
+        "red-cards": 0,
+        "fouls": 19,
+        "offsides": 2
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 3,
+        "passes-per-match": 62.12,
+        "crosses": 85,
+        "cross-accuracy-perc": 11,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 34,
+      "details": {
+        "club": "Chelsea",
+        "name": "Cesar Azpilicueta",
+        "position": "Defender",
+        "apperances": 28,
+        "wins": 17,
+        "losses": 6
+      },
+      "defence": {
+        "clean-sheets": 12,
+        "tackles": 75,
+        "tackle-success-perc": 57,
+        "interceptions": 30,
+        "clearances": 50,
+        "recoveries": 150,
+        "duels-won": 138,
+        "duels-lost": 97,
+        "successful-5050s": 8,
+        "aerial-battles-won": 45,
+        "aerial-battles-lost": 35
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 25,
+        "offsides": 2
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 4,
+        "passes-per-match": 69.00,
+        "crosses": 95,
+        "cross-accuracy-perc": 19,
+        "big-chances-created": 5
+      }
+    },
+    {
+      "id": 35,
+      "details": {
+        "club": "Chelsea",
+        "name": "David Luiz",
+        "position": "Defender",
+        "apperances": 26,
+        "wins": 16,
+        "losses": 5
+      },
+      "defence": {
+        "clean-sheets": 12,
+        "tackles": 30,
+        "tackle-success-perc": 77,
+        "interceptions": 26,
+        "clearances": 114,
+        "recoveries": 145,
+        "duels-won": 120,
+        "duels-lost": 85,
+        "successful-5050s": 10,
+        "aerial-battles-won": 54,
+        "aerial-battles-lost": 50
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 24,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 2,
+        "passes-per-match": 76.65,
+        "crosses": 2,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 9
+      }
+    },
+    {
+      "id": 36,
+      "details": {
+        "club": "Chelsea",
+        "name": "N'Golo Kante",
+        "position": "Midfielder",
+        "apperances": 28,
+        "wins": 17,
+        "losses": 6
+      },
+      "defence": {
+        "tackles": 57,
+        "tackle-success-perc": 53,
+        "interceptions": 36,
+        "clearances": 22,
+        "recoveries": 196,
+        "duels-won": 116,
+        "duels-lost": 161,
+        "successful-5050s": 25,
+        "aerial-battles-won": 22,
+        "aerial-battles-lost": 30
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 28,
+        "offsides": 4
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 23,
+        "shots-OT": 4,
+        "shooting-acc-perc": 17
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 4,
+        "passes-per-match": 59.71,
+        "crosses": 18,
+        "cross-accuracy-perc": 33,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 37,
+      "details": {
+        "club": "Chelsea",
+        "name": "Ross Barkley",
+        "position": "Midfielder",
+        "apperances": 22,
+        "wins": 14,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 14,
+        "tackle-success-perc": 71,
+        "interceptions": 8,
+        "clearances": 10,
+        "recoveries": 65,
+        "duels-won": 60,
+        "duels-lost": 58,
+        "successful-5050s": 12,
+        "aerial-battles-won": 13,
+        "aerial-battles-lost": 7
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 31,
+        "shots-OT": 6,
+        "shooting-acc-perc": 19
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 4,
+        "passes-per-match": 36.77,
+        "crosses": 6,
+        "cross-accuracy-perc": 17,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 39,
+      "details": {
+        "club": "Chelsea",
+        "name": "Jorginho",
+        "position": "Midfielder",
+        "apperances": 27,
+        "wins": 17,
+        "losses": 5
+      },
+      "defence": {
+        "tackles": 54,
+        "tackle-success-perc": 52,
+        "interceptions": 38,
+        "clearances": 24,
+        "recoveries": 199,
+        "duels-won": 92,
+        "duels-lost": 106,
+        "successful-5050s": 11,
+        "aerial-battles-won": 7,
+        "aerial-battles-lost": 17
+      },
+      "discipline": {
+        "yellow-cards": 6,
+        "red-cards": 0,
+        "fouls": 22,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 1,
+        "shots": 13,
+        "shots-OT": 5,
+        "shooting-acc-perc": 38
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 0,
+        "passes-per-match": 88.96,
+        "crosses": 2,
+        "cross-accuracy-perc": 50,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 40,
+      "details": {
+        "club": "Chelsea",
+        "name": "Mateo Kovacic",
+        "position": "Midfielder",
+        "apperances": 25,
+        "wins": 15,
+        "losses": 6
+      },
+      "defence": {
+        "tackles": 32,
+        "tackle-success-perc": 63,
+        "interceptions": 7,
+        "clearances": 14,
+        "recoveries": 95,
+        "duels-won": 95,
+        "duels-lost": 82,
+        "successful-5050s": 29,
+        "aerial-battles-won": 6,
+        "aerial-battles-lost": 7
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 14,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 23,
+        "shots-OT": 4,
+        "shooting-acc-perc": 17
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 2,
+        "passes-per-match": 46.56,
+        "crosses": 3,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 1
+      }
+    },
+    {
+      "id": 41,
+      "details": {
+        "club": "Chelsea",
+        "name": "Eden Hazard",
+        "position": "Forward",
+        "apperances": 27,
+        "wins": 16,
+        "losses": 6
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 10,
+        "offsides": 7
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 4,
+        "headed": 0,
+        "right-foot": 8,
+        "left-foot": 4,
+        "hit-woodwork": 1,
+        "big-chances-missed": 5,
+        "shots": 72,
+        "shots-OT": 32,
+        "shooting-acc-perc": 44
+      },
+      "team-play": {
+        "goals": 12,
+        "assists": 1,
+        "passes-per-match": 49.85,
+        "crosses": 79,
+        "big-chances-created": 12
+      }
+    },
+    {
+      "id": 42,
+      "details": {
+        "club": "Chelsea",
+        "name": "Pedro",
+        "position": "Forward",
+        "apperances": 23,
+        "wins": 15,
+        "losses": 6
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 14,
+        "offsides": 5
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 0,
+        "right-foot": 4,
+        "left-foot": 4,
+        "hit-woodwork": 1,
+        "big-chances-missed": 2,
+        "shots": 43,
+        "shots-OT": 21,
+        "shooting-acc-perc": 49
+      },
+      "team-play": {
+        "goals": 8,
+        "assists": 1,
+        "passes-per-match": 35.26,
+        "crosses": 43,
+        "big-chances-created": 5
+      }
+    },
+    {
+      "id": 43,
+      "details": {
+        "club": "Chelsea",
+        "name": "Olivier Giroud",
+        "position": "Forward",
+        "apperances": 20,
+        "wins": 12,
+        "losses": 5
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 12,
+        "offsides": 6
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 1,
+        "right-foot": 0,
+        "left-foot": 0,
+        "hit-woodwork": 1,
+        "big-chances-missed": 3,
+        "shots": 22,
+        "shots-OT": 7,
+        "shooting-acc-perc": 32
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 4,
+        "passes-per-match": 10.80,
+        "crosses": 1,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 44,
+      "details": {
+        "club": "Chelsea",
+        "name": "Willian",
+        "position": "Forward",
+        "apperances": 26,
+        "wins": 16,
+        "losses": 5
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 11,
+        "offsides": 11
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 0,
+        "right-foot": 3,
+        "left-foot": 0,
+        "hit-woodwork": 5,
+        "big-chances-missed": 6,
+        "shots": 50,
+        "shots-OT": 19,
+        "shooting-acc-perc": 38
+      },
+      "team-play": {
+        "goals": 3,
+        "assists": 4,
+        "passes-per-match": 40.15,
+        "crosses": 139,
+        "big-chances-created": 8
+      }
+    },
+    {
+      "id": 45,
       "details": {
         "club": "Manchester City",
         "name": "Ederson",
         "position": "Goalkeeper",
-        "apperances": 27,
-        "wins": 21,
+        "apperances": 29,
+        "wins": 23,
         "losses": 4
       },
       "defence": {
-        "saves": 46,
+        "saves": 47,
         "penalties-saved": 0,
-        "punches": 5,
+        "punches": 6,
         "high-claims": 15,
         "catches": 4,
-        "sweeper-clearances": 14,
-        "throw-outs": 128,
-        "clean-sheets": 12,
-        "goals-conceded": 20,
-        "errors-goals-conceded": 0,
+        "sweeper-clearances": 16,
+        "clean-sheets": 14,
         "own-goals": 0
       },
       "discipline": {
@@ -307,52 +1721,51 @@
       "team-play": {
         "goals": 0,
         "assists": 1,
-        "passes-per-match": 26.00,
-        "accurate-long-balls": 94
+        "passes-per-match": 25.69,
+        "accurate-long-balls": 99
       }
     },
     {
-      "id": 9,
+      "id": 46,
       "details": {
         "club": "Manchester City",
         "name": "Kyle Walker",
         "position": "Defender",
-        "apperances": 23,
-        "wins": 18,
+        "apperances": 24,
+        "wins": 19,
         "losses": 3
       },
       "defence": {
-        "clean-sheets": 11,
+        "clean-sheets": 12,
         "goals-conceded": 14,
-        "tackles": 31,
-        "tackle-success-perc": 71,
-        "blocked-shots": 6,
-        "interceptions": 28,
-        "clearances": 31,
-        "recoveries": 117,
-        "duels-won": 87,
-        "duels-lost": 57,
+        "tackles": 32,
+        "tackle-success-perc": 69,
+        "interceptions": 29,
+        "clearances": 32,
+        "recoveries": 123,
+        "duels-won": 88,
+        "duels-lost": 60,
         "successful-5050s": 13,
         "aerial-battles-won": 34,
         "aerial-battles-lost": 21
       },
       "discipline": {
-        "yellow-cards": 1,
+        "yellow-cards": 2,
         "red-cards": 0,
-        "fouls": 8,
+        "fouls": 10,
         "offsides": 4
       },
       "team-play": {
         "goals": 1,
         "assists": 1,
-        "passes-per-match": 70.96,
-        "crosses": 39,
-        "cross-accuracy-perc": 8,
+        "passes-per-match": 72.75,
+        "crosses": 42,
+        "cross-accuracy-perc": 7,
         "big-chances-created": 0
       }
     },
     {
-      "id": 10,
+      "id": 47,
       "details": {
         "club": "Manchester City",
         "name": "Aymeric Laporte",
@@ -366,10 +1779,8 @@
         "goals-conceded": 19,
         "tackles": 30,
         "tackle-success-perc": 43,
-        "blocked-shots": 3,
         "interceptions": 30,
         "clearances": 69,
-        "clearances-off-line": 0,
         "recoveries": 144,
         "duels-won": 102,
         "duels-lost": 73,
@@ -384,7 +1795,7 @@
         "offsides": 2
       },
       "team-play": {
-        "goals": 1,
+        "goals": 2,
         "assists": 1,
         "passes-per-match": 85.67,
         "crosses": 6,
@@ -393,30 +1804,68 @@
       }
     },
     {
-      "id": 11,
+      "id": 48,
       "details": {
         "club": "Manchester City",
-        "name": "Kevin De Bruyne",
-        "position": "Midfielder",
-        "apperances": 12,
-        "wins": 9,
-        "losses": 3
+        "name": "John Stones",
+        "position": "Defender",
+        "apperances": 19,
+        "wins": 13,
+        "losses": 4
       },
       "defence": {
-        "tackles": 11,
-        "tackle-success-perc": 82,
-        "blocked-shots": 3,
-        "interceptions": 1,
-        "clearances": 1,
-        "recoveries": 41,
-        "duels-won": 37,
-        "duels-lost": 37,
-        "successful-5050s": 12,
-        "aerial-battles-won": 4,
-        "aerial-battles-lost": 7
+        "clean-sheets": 7,
+        "goals-conceded": 15,
+        "tackles": 15,
+        "tackle-success-perc": 67,
+        "interceptions": 12,
+        "clearances": 54,
+        "recoveries": 104,
+        "duels-won": 78,
+        "duels-lost": 43,
+        "successful-5050s": 6,
+        "aerial-battles-won": 51,
+        "aerial-battles-lost": 28
       },
       "discipline": {
-        "yellow-cards": 3,
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 6,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 82.26,
+        "crosses": 2,
+        "cross-accuracy-perc": 50,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 49,
+      "details": {
+        "club": "Manchester City",
+        "name": "Ilkay Gundogan",
+        "position": "Midfielder",
+        "apperances": 23,
+        "wins": 18,
+        "losses": 4
+      },
+      "defence": {
+        "tackles": 15,
+        "tackle-success-perc": 73,
+        "interceptions": 15,
+        "clearances": 14,
+        "recoveries": 84,
+        "duels-won": 55,
+        "duels-lost": 60,
+        "successful-5050s": 9,
+        "aerial-battles-won": 18,
+        "aerial-battles-lost": 15
+      },
+      "discipline": {
+        "yellow-cards": 2,
         "red-cards": 0,
         "fouls": 9,
         "offsides": 0
@@ -424,78 +1873,209 @@
       "attack": {
         "freekicks-scored": 0,
         "penalties-scored": 0,
-        "shots": 14,
-        "shots-OT": 8,
-        "shooting-acc-perc": 57
+        "shots": 29,
+        "shots-OT": 9,
+        "shooting-acc-perc": 31
+      },
+      "team-play": {
+        "goals": 5,
+        "assists": 2,
+        "passes-per-match": 50.96,
+        "crosses": 51,
+        "cross-accuracy-perc": 35,
+        "big-chances-created": 5
+      }
+    },
+    {
+      "id": 50,
+      "details": {
+        "club": "Manchester City",
+        "name": "Kevin De Bruyne",
+        "position": "Midfielder",
+        "apperances": 14,
+        "wins": 11,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 13,
+        "tackle-success-perc": 77,
+        "interceptions": 1,
+        "clearances": 1,
+        "recoveries": 47,
+        "duels-won": 42,
+        "duels-lost": 40,
+        "successful-5050s": 13,
+        "aerial-battles-won": 4,
+        "aerial-battles-lost": 8
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 9,
+        "offsides": 1
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 18,
+        "shots-OT": 9,
+        "shooting-acc-perc": 50
       },
       "team-play": {
         "goals": 1,
         "assists": 0,
-        "passes-per-match": 34.08,
-        "crosses": 40,
+        "passes-per-match": 36.79,
+        "crosses": 59,
         "cross-accuracy-perc": 25,
         "big-chances-created": 5
       }
     },
     {
-      "id": 12,
+      "id": 51,
+      "details": {
+        "club": "Manchester City",
+        "name": "Bernardo Silva",
+        "position": "Midfielder",
+        "apperances": 28,
+        "wins": 22,
+        "losses": 4
+      },
+      "defence": {
+        "tackles": 35,
+        "tackle-success-perc": 74,
+        "interceptions": 15,
+        "clearances": 21,
+        "recoveries": 124,
+        "duels-won": 92,
+        "duels-lost": 139,
+        "successful-5050s": 32,
+        "aerial-battles-won": 6,
+        "aerial-battles-lost": 23
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 26,
+        "offsides": 2
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 40,
+        "shots-OT": 13,
+        "shooting-acc-perc": 33
+      },
+      "team-play": {
+        "goals": 5,
+        "assists": 6,
+        "passes-per-match": 47.68,
+        "crosses": 54,
+        "cross-accuracy-perc": 17,
+        "big-chances-created": 9
+      }
+    },
+    {
+      "id": 52,
       "details": {
         "club": "Manchester City",
         "name": "David Silva",
+        "position": "Midfielder",
+        "apperances": 25,
+        "wins": 20,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 24,
+        "tackle-success-perc": 63,
+        "interceptions": 15,
+        "clearances": 9,
+        "recoveries": 103,
+        "duels-won": 81,
+        "duels-lost": 77,
+        "successful-5050s": 24,
+        "aerial-battles-won": 13,
+        "aerial-battles-lost": 13
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 16,
+        "offsides": 5
+      },
+      "attack": {
+        "freekicks-scored": 1,
+        "penalties-scored": 0,
+        "shots": 44,
+        "shots-OT": 18,
+        "shooting-acc-perc": 41
+      },
+      "team-play": {
+        "goals": 6,
+        "assists": 5,
+        "passes-per-match": 60.44,
+        "crosses": 64,
+        "cross-accuracy-perc": 28,
+        "big-chances-created": 12
+      }
+    },
+    {
+      "id": 53,
+      "details": {
+        "club": "Manchester City",
+        "name": "Riyad Mahrez",
         "position": "Midfielder",
         "apperances": 23,
         "wins": 18,
         "losses": 3
       },
       "defence": {
-        "tackles": 19,
-        "tackle-success-perc": 63,
-        "blocked-shots": 17,
-        "interceptions": 14,
-        "clearances": 8,
-        "recoveries": 95,
-        "duels-won": 71,
-        "duels-lost": 68,
-        "successful-5050s": 23,
-        "aerial-battles-won": 10,
-        "aerial-battles-lost": 9
+        "tackles": 12,
+        "tackle-success-perc": 50,
+        "interceptions": 7,
+        "clearances": 2,
+        "recoveries": 68,
+        "duels-won": 55,
+        "duels-lost": 64,
+        "successful-5050s": 17,
+        "aerial-battles-won": 14,
+        "aerial-battles-lost": 17
       },
       "discipline": {
-        "yellow-cards": 2,
+        "yellow-cards": 0,
         "red-cards": 0,
-        "fouls": 16,
-        "offsides": 0
+        "fouls": 9,
+        "offsides": 8
       },
       "attack": {
-        "freekicks-scored": 1,
+        "freekicks-scored": 0,
         "penalties-scored": 0,
-        "shots": 40,
-        "shots-OT": 17,
+        "shots": 44,
+        "shots-OT": 19,
         "shooting-acc-perc": 43
       },
       "team-play": {
         "goals": 6,
-        "assists": 0,
-        "passes-per-match": 58.78,
-        "crosses": 61,
-        "cross-accuracy-perc": 28,
-        "big-chances-created": 12
+        "assists": 2,
+        "passes-per-match": 28.35,
+        "crosses": 60,
+        "cross-accuracy-perc": 17,
+        "big-chances-created": 5
       }
     },
     {
-      "id": 13,
+      "id": 54,
       "details": {
         "club": "Manchester City",
         "name": "Raheem Sterling",
         "position": "Forward",
-        "apperances": 24,
-        "wins": 18,
+        "apperances": 26,
+        "wins": 20,
         "losses": 4
       },
       "discipline": {
         "yellow-cards": 2,
         "red-cards": 0,
-        "fouls": 22,
+        "fouls": 24,
         "offsides": 8
       },
       "attack": {
@@ -506,33 +2086,33 @@
         "left-foot": 2,
         "hit-woodwork": 3,
         "big-chances-missed": 5,
-        "shots": 46,
-        "shots-OT": 25,
-        "shooting-acc-perc": 54
+        "shots": 52,
+        "shots-OT": 29,
+        "shooting-acc-perc": 56
       },
       "team-play": {
         "goals": 12,
         "assists": 9,
-        "passes-per-match": 38.33,
-        "crosses": 58,
+        "passes-per-match": 37.69,
+        "crosses": 61,
         "big-chances-created": 11
       }
     },
     {
-      "id": 14,
+      "id": 55,
       "details": {
         "club": "Manchester City",
         "name": "Sergio Aguero",
         "position": "Forward",
-        "apperances": 23,
-        "wins": 18,
+        "apperances": 25,
+        "wins": 20,
         "losses": 3
       },
       "discipline": {
         "yellow-cards": 3,
         "red-cards": 0,
-        "fouls": 15,
-        "offsides": 18
+        "fouls": 16,
+        "offsides": 21
       },
       "attack": {
         "freekicks-scored": 0,
@@ -540,18 +2120,1288 @@
         "headed": 2,
         "right-foot": 9,
         "left-foot": 6,
-        "hit-woodwork": 5,
+        "hit-woodwork": 6,
         "big-chances-missed": 9,
-        "shots": 84,
-        "shots-OT": 32,
+        "shots": 92,
+        "shots-OT": 35,
         "shooting-acc-perc": 38
       },
       "team-play": {
         "goals": 18,
         "assists": 6,
-        "passes-per-match": 23.39,
-        "crosses": 7,
+        "passes-per-match": 23.72,
+        "crosses": 8,
         "big-chances-created": 5
+      }
+    },
+    {
+      "id": 56,
+      "details": {
+        "club": "Manchester City",
+        "name": "Leroy Sane",
+        "position": "Forward",
+        "apperances": 24,
+        "wins": 18,
+        "losses": 4
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 8,
+        "offsides": 16
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 0,
+        "right-foot": 1,
+        "left-foot": 6,
+        "hit-woodwork": 3,
+        "big-chances-missed": 4,
+        "shots": 42,
+        "shots-OT": 17,
+        "shooting-acc-perc": 40
+      },
+      "team-play": {
+        "goals": 8,
+        "assists": 9,
+        "passes-per-match": 29.83,
+        "crosses": 88,
+        "big-chances-created": 9
+      }
+    },
+    {
+      "id": 57,
+      "details": {
+        "club": "Manchester City",
+        "name": "Gabriel Jesus",
+        "position": "Forward",
+        "apperances": 22,
+        "wins": 17,
+        "losses": 3
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 9,
+        "offsides": 9
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 1,
+        "headed": 2,
+        "right-foot": 2,
+        "left-foot": 2,
+        "hit-woodwork": 1,
+        "big-chances-missed": 13,
+        "shots": 35,
+        "shots-OT": 21,
+        "shooting-acc-perc": 60
+      },
+      "team-play": {
+        "goals": 6,
+        "assists": 2,
+        "passes-per-match": 12.23,
+        "crosses": 4,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 58,
+      "details": {
+        "club": "Manchester United",
+        "name": "David De Gea",
+        "position": "Goalkeeper",
+        "apperances": 29,
+        "wins": 17,
+        "losses": 5
+      },
+      "defence": {
+        "saves": 97,
+        "penalties-saved": 0,
+        "punches": 8,
+        "high-claims": 7,
+        "catches": 10,
+        "sweeper-clearances": 1,
+        "clean-sheets": 7,
+        "own-goals": 0
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 1
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 25.45,
+        "accurate-long-balls": 234
+      }
+    },
+    {
+      "id": 59,
+      "details": {
+        "club": "Manchester United",
+        "name": "Victor Lindelof",
+        "position": "Defender",
+        "apperances": 24,
+        "wins": 14,
+        "losses": 5
+      },
+      "defence": {
+        "clean-sheets": 6,
+        "goals-conceded": 28,
+        "tackles": 30,
+        "tackle-success-perc": 60,
+        "interceptions": 18,
+        "clearances": 102,
+        "recoveries": 115,
+        "duels-won": 102,
+        "duels-lost": 54,
+        "successful-5050s": 8,
+        "aerial-battles-won": 53,
+        "aerial-battles-lost": 30
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 16,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 1,
+        "passes-per-match": 49.42,
+        "crosses": 1,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 60,
+      "details": {
+        "club": "Manchester United",
+        "name": "Chris Smalling",
+        "position": "Defender",
+        "apperances": 17,
+        "wins": 9,
+        "losses": 3
+      },
+      "defence": {
+        "clean-sheets": 4,
+        "goals-conceded": 22,
+        "tackles": 21,
+        "tackle-success-perc": 52,
+        "interceptions": 15,
+        "clearances": 75,
+        "recoveries": 59,
+        "duels-won": 99,
+        "duels-lost": 57,
+        "successful-5050s": 1,
+        "aerial-battles-won": 71,
+        "aerial-battles-lost": 40
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 0,
+        "passes-per-match": 40.12,
+        "crosses": 0,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 61,
+      "details": {
+        "club": "Manchester United",
+        "name": "Ashley Young",
+        "position": "Defender",
+        "apperances": 22,
+        "wins": 13,
+        "losses": 4
+      },
+      "defence": {
+        "clean-sheets": 4,
+        "goals-conceded": 31,
+        "tackles": 32,
+        "tackle-success-perc": 66,
+        "interceptions": 41,
+        "clearances": 50,
+        "recoveries": 123,
+        "duels-won": 85,
+        "duels-lost": 71,
+        "successful-5050s": 11,
+        "aerial-battles-won": 17,
+        "aerial-battles-lost": 11
+      },
+      "discipline": {
+        "yellow-cards": 7,
+        "red-cards": 0,
+        "fouls": 28,
+        "offsides": 3
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 2,
+        "passes-per-match": 46.05,
+        "crosses": 159,
+        "cross-accuracy-perc": 20,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 62,
+      "details": {
+        "club": "Manchester United",
+        "name": "Luke Shaw",
+        "position": "Defender",
+        "apperances": 23,
+        "wins": 14,
+        "losses": 4
+      },
+      "defence": {
+        "clean-sheets": 6,
+        "goals-conceded": 30,
+        "tackles": 48,
+        "tackle-success-perc": 52,
+        "interceptions": 19,
+        "clearances": 63,
+        "recoveries": 109,
+        "duels-won": 124,
+        "duels-lost": 86,
+        "successful-5050s": 19,
+        "aerial-battles-won": 43,
+        "aerial-battles-lost": 23
+      },
+      "discipline": {
+        "yellow-cards": 9,
+        "red-cards": 0,
+        "fouls": 32,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 2,
+        "passes-per-match": 57.91,
+        "crosses": 48,
+        "cross-accuracy-perc": 27,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 63,
+      "details": {
+        "club": "Manchester United",
+        "name": "Paul Pogba",
+        "position": "Midfielder",
+        "apperances": 26,
+        "wins": 16,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 36,
+        "tackle-success-perc": 64,
+        "interceptions": 13,
+        "clearances": 29,
+        "recoveries": 160,
+        "duels-won": 175,
+        "duels-lost": 192,
+        "successful-5050s": 46,
+        "aerial-battles-won": 43,
+        "aerial-battles-lost": 46
+      },
+      "discipline": {
+        "yellow-cards": 4,
+        "red-cards": 0,
+        "fouls": 36,
+        "offsides": 2
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 5,
+        "shots": 85,
+        "shots-OT": 45,
+        "shooting-acc-perc": 53
+      },
+      "team-play": {
+        "goals": 11,
+        "assists": 9,
+        "passes-per-match": 60.77,
+        "crosses": 23,
+        "cross-accuracy-perc": 13,
+        "big-chances-created": 6
+      }
+    },
+    {
+      "id": 64,
+      "details": {
+        "club": "Manchester United",
+        "name": "Juan Mata",
+        "position": "Midfielder",
+        "apperances": 18,
+        "wins": 9,
+        "losses": 4
+      },
+      "defence": {
+        "tackles": 7,
+        "tackle-success-perc": 43,
+        "interceptions": 4,
+        "clearances": 3,
+        "recoveries": 62,
+        "duels-won": 22,
+        "duels-lost": 38,
+        "successful-5050s": 9,
+        "aerial-battles-won": 1,
+        "aerial-battles-lost": 2
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 6,
+        "offsides": 7
+      },
+      "attack": {
+        "freekicks-scored": 1,
+        "penalties-scored": 0,
+        "shots": 16,
+        "shots-OT": 5,
+        "shooting-acc-perc": 31
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 2,
+        "passes-per-match": 30.94,
+        "crosses": 53,
+        "cross-accuracy-perc": 15,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 65,
+      "details": {
+        "club": "Manchester United",
+        "name": "Jesse Lingard",
+        "position": "Midfielder",
+        "apperances": 22,
+        "wins": 12,
+        "losses": 4
+      },
+      "defence": {
+        "tackles": 21,
+        "tackle-success-perc": 57,
+        "interceptions": 6,
+        "clearances": 2,
+        "recoveries": 50,
+        "duels-won": 60,
+        "duels-lost": 89,
+        "successful-5050s": 12,
+        "aerial-battles-won": 5,
+        "aerial-battles-lost": 20
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 21,
+        "offsides": 6
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 1,
+        "shots": 25,
+        "shots-OT": 11,
+        "shooting-acc-perc": 44
+      },
+      "team-play": {
+        "goals": 4,
+        "assists": 2,
+        "passes-per-match": 27.18,
+        "crosses": 15,
+        "cross-accuracy-perc": 13,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 66,
+      "details": {
+        "club": "Manchester United",
+        "name": "Ander Herrera",
+        "position": "Midfielder",
+        "apperances": 19,
+        "wins": 12,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 45,
+        "tackle-success-perc": 51,
+        "interceptions": 36,
+        "clearances": 21,
+        "recoveries": 97,
+        "duels-won": 74,
+        "duels-lost": 70,
+        "successful-5050s": 10,
+        "aerial-battles-won": 4,
+        "aerial-battles-lost": 12
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 17,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 19,
+        "shots-OT": 7,
+        "shooting-acc-perc": 37
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 3,
+        "passes-per-match": 43.68,
+        "crosses": 6,
+        "cross-accuracy-perc": 17,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 67,
+      "details": {
+        "club": "Manchester United",
+        "name": "Nemanja Matic",
+        "position": "Midfielder",
+        "apperances": 23,
+        "wins": 14,
+        "losses": 4
+      },
+      "defence": {
+        "tackles": 40,
+        "tackle-success-perc": 60,
+        "interceptions": 28,
+        "clearances": 47,
+        "recoveries": 171,
+        "duels-won": 117,
+        "duels-lost": 107,
+        "successful-5050s": 15,
+        "aerial-battles-won": 47,
+        "aerial-battles-lost": 26
+      },
+      "discipline": {
+        "yellow-cards": 5,
+        "red-cards": 1,
+        "fouls": 21,
+        "offsides": 1
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 10,
+        "shots-OT": 3,
+        "shooting-acc-perc": 30
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 0,
+        "passes-per-match": 68.43,
+        "crosses": 9,
+        "cross-accuracy-perc": 22,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 68,
+      "details": {
+        "club": "Manchester United",
+        "name": "Alexis Sanchez",
+        "position": "Forward",
+        "apperances": 17,
+        "wins": 10,
+        "losses": 2
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 8
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 1,
+        "right-foot": 0,
+        "left-foot": 0,
+        "hit-woodwork": 0,
+        "big-chances-missed": 1,
+        "shots": 17,
+        "shots-OT": 9,
+        "shooting-acc-perc": 53
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 3,
+        "passes-per-match": 20.53,
+        "crosses": 23,
+        "big-chances-created": 6
+      }
+    },
+    {
+      "id": 69,
+      "details": {
+        "club": "Manchester United",
+        "name": "Romelu Lukaku",
+        "position": "Forward",
+        "apperances": 26,
+        "wins": 14,
+        "losses": 5
+      },
+      "discipline": {
+        "yellow-cards": 4,
+        "red-cards": 0,
+        "fouls": 17,
+        "offsides": 20
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 2,
+        "right-foot": 5,
+        "left-foot": 4,
+        "hit-woodwork": 1,
+        "big-chances-missed": 9,
+        "shots": 46,
+        "shots-OT": 28,
+        "shooting-acc-perc": 61
+      },
+      "team-play": {
+        "goals": 12,
+        "assists": 0,
+        "passes-per-match": 15.88,
+        "crosses": 31,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 70,
+      "details": {
+        "club": "Manchester United",
+        "name": "Anthony Martial",
+        "position": "Forward",
+        "apperances": 20,
+        "wins": 11,
+        "losses": 4
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 5
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 1,
+        "headed": 0,
+        "right-foot": 8,
+        "left-foot": 1,
+        "hit-woodwork": 0,
+        "big-chances-missed": 3,
+        "shots": 30,
+        "shots-OT": 18,
+        "shooting-acc-perc": 60
+      },
+      "team-play": {
+        "goals": 9,
+        "assists": 2,
+        "passes-per-match": 28.45,
+        "crosses": 31,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 71,
+      "details": {
+        "club": "Manchester United",
+        "name": "Marcus Rashford",
+        "position": "Forward",
+        "apperances": 25,
+        "wins": 15,
+        "losses": 4
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 1,
+        "fouls": 24,
+        "offsides": 9
+      },
+      "attack": {
+        "freekicks-scored": 1,
+        "penalties-scored": 0,
+        "headed": 0,
+        "right-foot": 8,
+        "left-foot": 1,
+        "hit-woodwork": 0,
+        "big-chances-missed": 11,
+        "shots": 61,
+        "shots-OT": 31,
+        "shooting-acc-perc": 51
+      },
+      "team-play": {
+        "goals": 9,
+        "assists": 6,
+        "passes-per-match": 18.48,
+        "crosses": 46,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 72,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Hugo Lloris",
+        "position": "Goalkeeper",
+        "apperances": 25,
+        "wins": 18,
+        "losses": 6
+      },
+      "defence": {
+        "saves": 76,
+        "penalties-saved": 2,
+        "punches": 13,
+        "high-claims": 9,
+        "catches": 7,
+        "sweeper-clearances": 16,
+        "clean-sheets": 9,
+        "own-goals": 0
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 0
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 32.68,
+        "accurate-long-balls": 180
+      }
+    },
+    {
+      "id": 73,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Kieran Trippier",
+        "position": "Defender",
+        "apperances": 23,
+        "wins": 16,
+        "losses": 6
+      },
+      "defence": {
+        "clean-sheets": 6,
+        "goals-conceded": 20,
+        "tackles": 54,
+        "tackle-success-perc": 57,
+        "interceptions": 21,
+        "clearances": 51,
+        "recoveries": 145,
+        "duels-won": 105,
+        "duels-lost": 83,
+        "successful-5050s": 5,
+        "aerial-battles-won": 27,
+        "aerial-battles-lost": 26
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 17,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 3,
+        "passes-per-match": 57.09,
+        "crosses": 166,
+        "cross-accuracy-perc": 30,
+        "big-chances-created": 7
+      }
+    },
+    {
+      "id": 74,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Danny Rose",
+        "position": "Defender",
+        "apperances": 18,
+        "wins": 12,
+        "losses": 5
+      },
+      "defence": {
+        "clean-sheets": 4,
+        "goals-conceded": 10,
+        "tackles": 33,
+        "tackle-success-perc": 58,
+        "interceptions": 14,
+        "clearances": 17,
+        "recoveries": 69,
+        "duels-won": 106,
+        "duels-lost": 78,
+        "successful-5050s": 25,
+        "aerial-battles-won": 17,
+        "aerial-battles-lost": 14
+      },
+      "discipline": {
+        "yellow-cards": 5,
+        "red-cards": 0,
+        "fouls": 23,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 3,
+        "passes-per-match": 35.44,
+        "crosses": 60,
+        "cross-accuracy-perc": 23,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 75,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Toby Alderweireld",
+        "position": "Defender",
+        "apperances": 27,
+        "wins": 19,
+        "losses": 7
+      },
+      "defence": {
+        "clean-sheets": 10,
+        "goals-conceded": 25,
+        "tackles": 27,
+        "tackle-success-perc": 63,
+        "interceptions": 20,
+        "clearances": 140,
+        "recoveries": 156,
+        "duels-won": 74,
+        "duels-lost": 59,
+        "successful-5050s": 0,
+        "aerial-battles-won": 46,
+        "aerial-battles-lost": 40
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 9,
+        "offsides": 1
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 70.63,
+        "crosses": 4,
+        "cross-accuracy-perc": 25,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 76,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Jan Vertonghen",
+        "position": "Defender",
+        "apperances": 16,
+        "wins": 10,
+        "losses": 5
+      },
+      "defence": {
+        "clean-sheets": 3,
+        "goals-conceded": 18,
+        "tackles": 28,
+        "tackle-success-perc": 68,
+        "interceptions": 28,
+        "clearances": 59,
+        "recoveries": 108,
+        "duels-won": 73,
+        "duels-lost": 36,
+        "successful-5050s": 6,
+        "aerial-battles-won": 32,
+        "aerial-battles-lost": 17
+      },
+      "discipline": {
+        "yellow-cards": 1,
+        "red-cards": 1,
+        "fouls": 9,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 0,
+        "passes-per-match": 67.56,
+        "crosses": 25,
+        "cross-accuracy-perc": 20,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 77,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Davinson Sanchez",
+        "position": "Defender",
+        "apperances": 17,
+        "wins": 12,
+        "losses": 4
+      },
+      "defence": {
+        "clean-sheets": 5,
+        "goals-conceded": 16,
+        "tackles": 22,
+        "tackle-success-perc": 55,
+        "interceptions": 21,
+        "clearances": 75,
+        "recoveries": 82,
+        "duels-won": 79,
+        "duels-lost": 69,
+        "successful-5050s": 0,
+        "aerial-battles-won": 50,
+        "aerial-battles-lost": 45
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 14,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 1,
+        "passes-per-match": 63.82,
+        "crosses": 0,
+        "cross-accuracy-perc": 0,
+        "big-chances-created": 1
+      }
+    },
+    {
+      "id": 78,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Ben Davies",
+        "position": "Defender",
+        "apperances": 18,
+        "wins": 12,
+        "losses": 6
+      },
+      "defence": {
+        "clean-sheets": 4,
+        "goals-conceded": 20,
+        "tackles": 39,
+        "tackle-success-perc": 49,
+        "interceptions": 18,
+        "clearances": 47,
+        "recoveries": 69,
+        "duels-won": 85,
+        "duels-lost": 73,
+        "successful-5050s": 2,
+        "aerial-battles-won": 36,
+        "aerial-battles-lost": 29
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 13,
+        "offsides": 0
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 0,
+        "passes-per-match": 43.28,
+        "crosses": 36,
+        "cross-accuracy-perc": 19,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 79,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Eric Lamela",
+        "position": "Midfielder",
+        "apperances": 18,
+        "wins": 12,
+        "losses": 5
+      },
+      "defence": {
+        "tackles": 16,
+        "tackle-success-perc": 75,
+        "interceptions": 7,
+        "clearances": 0,
+        "recoveries": 56,
+        "duels-won": 55,
+        "duels-lost": 77,
+        "successful-5050s": 20,
+        "aerial-battles-won": 4,
+        "aerial-battles-lost": 15
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 22,
+        "offsides": 1
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 29,
+        "shots-OT": 11,
+        "shooting-acc-perc": 38
+      },
+      "team-play": {
+        "goals": 4,
+        "assists": 2,
+        "passes-per-match": 21.72,
+        "crosses": 25,
+        "cross-accuracy-perc": 32,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 80,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Eric Dier",
+        "position": "Midfielder",
+        "apperances": 15,
+        "wins": 12,
+        "losses": 3
+      },
+      "defence": {
+        "tackles": 25,
+        "tackle-success-perc": 56,
+        "interceptions": 16,
+        "clearances": 28,
+        "recoveries": 63,
+        "duels-won": 55,
+        "duels-lost": 78,
+        "successful-5050s": 1,
+        "aerial-battles-won": 24,
+        "aerial-battles-lost": 25
+      },
+      "discipline": {
+        "yellow-cards": 3,
+        "red-cards": 0,
+        "fouls": 20,
+        "offsides": 0
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 5,
+        "shots-OT": 2,
+        "shooting-acc-perc": 40
+      },
+      "team-play": {
+        "goals": 2,
+        "assists": 0,
+        "passes-per-match": 51.33,
+        "crosses": 5,
+        "cross-accuracy-perc": 20,
+        "big-chances-created": 2
+      }
+    },
+    {
+      "id": 81,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Moussa Sissoko",
+        "position": "Midfielder",
+        "apperances": 23,
+        "wins": 16,
+        "losses": 6
+      },
+      "defence": {
+        "tackles": 28,
+        "tackle-success-perc": 71,
+        "interceptions": 13,
+        "clearances": 19,
+        "recoveries": 163,
+        "duels-won": 87,
+        "duels-lost": 91,
+        "successful-5050s": 28,
+        "aerial-battles-won": 17,
+        "aerial-battles-lost": 16
+      },
+      "discipline": {
+        "yellow-cards": 0,
+        "red-cards": 0,
+        "fouls": 17,
+        "offsides": 2
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 11,
+        "shots-OT": 3,
+        "shooting-acc-perc": 27
+      },
+      "team-play": {
+        "goals": 0,
+        "assists": 2,
+        "passes-per-match": 44.70,
+        "crosses": 24,
+        "cross-accuracy-perc": 17,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 82,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Deli Alli",
+        "position": "Midfielder",
+        "apperances": 17,
+        "wins": 12,
+        "losses": 5
+      },
+      "defence": {
+        "tackles": 25,
+        "tackle-success-perc": 56,
+        "interceptions": 15,
+        "clearances": 10,
+        "recoveries": 83,
+        "duels-won": 71,
+        "duels-lost": 74,
+        "successful-5050s": 17,
+        "aerial-battles-won": 12,
+        "aerial-battles-lost": 15
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 15,
+        "offsides": 3
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 25,
+        "shots-OT": 14,
+        "shooting-acc-perc": 56
+      },
+      "team-play": {
+        "goals": 5,
+        "assists": 1,
+        "passes-per-match": 38.12,
+        "crosses": 7,
+        "cross-accuracy-perc": 29,
+        "big-chances-created": 3
+      }
+    },
+    {
+      "id": 83,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Christain Eriksen",
+        "position": "Midfielder",
+        "apperances": 26,
+        "wins": 17,
+        "losses": 8
+      },
+      "defence": {
+        "tackles": 30,
+        "tackle-success-perc": 60,
+        "interceptions": 11,
+        "clearances": 4,
+        "recoveries": 129,
+        "duels-won": 63,
+        "duels-lost": 106,
+        "successful-5050s": 11,
+        "aerial-battles-won": 9,
+        "aerial-battles-lost": 26
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 11,
+        "offsides": 1
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 50,
+        "shots-OT": 20,
+        "shooting-acc-perc": 40
+      },
+      "team-play": {
+        "goals": 5,
+        "assists": 9,
+        "passes-per-match": 50.12,
+        "crosses": 77,
+        "cross-accuracy-perc": 27,
+        "big-chances-created": 7
+      }
+    },
+    {
+      "id": 84,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Lucas Moura",
+        "position": "Midfielder",
+        "apperances": 23,
+        "wins": 16,
+        "losses": 7
+      },
+      "defence": {
+        "tackles": 24,
+        "tackle-success-perc": 50,
+        "interceptions": 21,
+        "clearances": 21,
+        "recoveries": 61,
+        "duels-won": 102,
+        "duels-lost": 134,
+        "successful-5050s": 25,
+        "aerial-battles-won": 23,
+        "aerial-battles-lost": 41
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 18,
+        "offsides": 9
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 26,
+        "shots-OT": 10,
+        "shooting-acc-perc": 38
+      },
+      "team-play": {
+        "goals": 6,
+        "assists": 0,
+        "passes-per-match": 21.35,
+        "crosses": 10,
+        "cross-accuracy-perc": 10,
+        "big-chances-created": 1
+      }
+    },
+    {
+      "id": 85,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Harry Winks",
+        "position": "Midfielder",
+        "apperances": 25,
+        "wins": 17,
+        "losses": 8
+      },
+      "defence": {
+        "tackles": 22,
+        "tackle-success-perc": 59,
+        "interceptions": 20,
+        "clearances": 19,
+        "recoveries": 134,
+        "duels-won": 64,
+        "duels-lost": 81,
+        "successful-5050s": 16,
+        "aerial-battles-won": 12,
+        "aerial-battles-lost": 14
+      },
+      "discipline": {
+        "yellow-cards": 4,
+        "red-cards": 0,
+        "fouls": 15,
+        "offsides": 2
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "shots": 9,
+        "shots-OT": 2,
+        "shooting-acc-perc": 22
+      },
+      "team-play": {
+        "goals": 1,
+        "assists": 0,
+        "passes-per-match": 54.80,
+        "crosses": 8,
+        "cross-accuracy-perc": 13,
+        "big-chances-created": 0
+      }
+    },
+    {
+      "id": 86,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Son Heung-Min",
+        "position": "Forward",
+        "apperances": 23,
+        "wins": 16,
+        "losses": 6
+      },
+      "discipline": {
+        "yellow-cards": 2,
+        "red-cards": 0,
+        "fouls": 8,
+        "offsides": 18
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 0,
+        "headed": 0,
+        "right-foot": 7,
+        "left-foot": 4,
+        "hit-woodwork": 1,
+        "big-chances-missed": 1,
+        "shots": 57,
+        "shots-OT": 22,
+        "shooting-acc-perc": 39
+      },
+      "team-play": {
+        "goals": 11,
+        "assists": 5,
+        "passes-per-match": 25.61,
+        "crosses": 23,
+        "big-chances-created": 4
+      }
+    },
+    {
+      "id": 86,
+      "details": {
+        "club": "Tottenham Hotspur",
+        "name": "Harry Kane",
+        "position": "Forward",
+        "apperances": 25,
+        "wins": 16,
+        "losses": 8
+      },
+      "discipline": {
+        "yellow-cards": 5,
+        "red-cards": 0,
+        "fouls": 28,
+        "offsides": 9
+      },
+      "attack": {
+        "freekicks-scored": 0,
+        "penalties-scored": 4,
+        "headed": 2,
+        "right-foot": 11,
+        "left-foot": 3,
+        "hit-woodwork": 1,
+        "big-chances-missed": 9,
+        "shots": 85,
+        "shots-OT": 41,
+        "shooting-acc-perc": 48
+      },
+      "team-play": {
+        "goals": 16,
+        "assists": 4,
+        "passes-per-match": 19.92,
+        "crosses": 11,
+        "big-chances-created": 7
       }
     }
   ]

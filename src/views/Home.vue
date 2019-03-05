@@ -143,6 +143,7 @@ p {
   width: 30%;
   & h4 {
     text-align: center;
+    padding-bottom: 20px;
   }
 }
 </style>

@@ -77,11 +77,27 @@ export default {
   computed: {
     ...mapGetters(["playersForClub"]),
     backgroundColour() {
-      if (this.club === "Liverpool") {
-        return "liverpool";
-      }
-      if (this.club === "Manchester City") {
-        return "mancity";
+      switch (this.club) {
+        case "Liverpool":
+          return "liverpool"
+          break;
+        case "Manchester City":
+          return "mancity"
+          break;
+        case "Chelsea":
+          return "chelsea"
+          break;
+        case "Arsenal":
+          return "arsenal"
+          break;
+        case "Manchester United":
+          return "manutd"
+          break;
+        case "Tottenham Hotspur":
+          return "tottenham"
+          break;
+        default: null
+          break;
       }
     }
   },
@@ -149,12 +165,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.arsenal {
+  background-color: $arsenal
+}
 .liverpool {
   background-color: $liverpool;
 }
 
 .mancity {
   background-color: $mancity;
+}
+
+.manutd {
+  background-color: $manutd
+}
+
+.chelsea {
+  background-color: $chelsea
+}
+
+.tottenham {
+  background-color: $tottenham
 }
 
 .wrapper {
