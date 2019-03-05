@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <div v-if="!isMobile()">
+    <!-- <div v-if="!isMobile()"> -->
       <div id="nav">
         <NavBar :clubs="clubs" :players="playersForClub"/>
       </div>
       <router-view :key="$route.fullPath" class="view"/>
-    </div>
-    <div v-else>
-      <p>This app is not optimised for mobiles, please view via desktop or tablet</p>
-    </div>
+    <!-- </div> -->
+    <!-- <div v-else> -->
+      <!-- <p>This app is not optimised for mobiles, please view via desktop or tablet</p>
+    </div> -->
   </div>
 </template>
 
