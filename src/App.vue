@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-if="!isMobile()">
+    <div v-if="!isMobile">
       <div id="nav">
         <NavBar :clubs="clubs" :players="playersForClub"/>
       </div>
