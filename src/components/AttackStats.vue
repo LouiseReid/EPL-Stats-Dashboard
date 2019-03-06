@@ -106,4 +106,24 @@ h4 {
     @include radar;
   }
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .charts--polar {
+    width: 180px;
+  }
+
+  .charts--radar {
+    width: 332px;
+    margin-top: -100px;
+  }
+
+  h4 {
+    font-size: 14px
+  }
+}
 </style>

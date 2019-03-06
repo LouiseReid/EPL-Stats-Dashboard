@@ -3,7 +3,7 @@
     <img src="../assets/profile.png" alt="profile">
     <div v-for="(value, key) in details" :key="key">
       <p class="key">{{ key }}:</p>
-      <p class="value">{{ value }}</p>
+      <p class="value" :class="{'long': value.length > 10}">{{ value }}</p>
     </div>
   </div>
 </template>
@@ -44,14 +44,16 @@ p {
   margin-left: 10px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+.long {
+  font-size: 18px;
+}
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   .wrapper--player-detail {
     margin: 10px 7px;
     padding: 5px;
     width: 50%;
   }
-
 
   img {
     height: 40%;
@@ -59,7 +61,11 @@ p {
     margin-bottom: 5px;
   }
   p {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .long {
+    font-size: 12px;
   }
 }
 </style>
