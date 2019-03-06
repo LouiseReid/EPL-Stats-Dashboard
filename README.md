@@ -1,34 +1,5 @@
-# epl-stats
+# EPL Stats Dashboard
 
-## Project setup
-```
-npm install
-```
+Stats dashboard build with VueJS Vue-ChartJS and Vuex displaying stats analysis of the top 6 clubs players for the 2018-19 season.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://louisereid.github.io/EPL-Stats-Dashboard/#/
