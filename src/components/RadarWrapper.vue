@@ -59,4 +59,30 @@ h2 {
   @include radar;
   margin-top: -100px;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  h2 {
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .header {
+    align-self: center;
+  }
+
+  .wrapper--radar {
+    height: fit-content;
+    width: 96%;
+    margin: 10px 7px;
+    padding-bottom: 18px;
+  }
+
+  .radar {
+    height: 270px;
+    width: 320px;
+    margin-top: -70px;
+  }
+}
 </style>

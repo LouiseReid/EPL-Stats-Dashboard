@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper--discipline">
     <h2>Discipline</h2>
     <div class="container">
       <div class="container--element">
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.wrapper {
+.wrapper--discipline {
   @include wrapper;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ h2 {
 .container {
   align-self: center;
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto;
   grid-row-gap: 10px;
 
   &--element {
@@ -56,16 +56,34 @@ h2 {
   }
 }
 
-p, strong {
+p,
+strong {
   margin-left: 20px;
 }
 
 .yellow {
-  color: yellow
+  color: yellow;
 }
 
 .red {
-  color: red
+  color: red;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .wrapper--discipline {
+    margin: 10px 7px;
+    width: 50%;
+    justify-content: center
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  p,
+  strong {
+    margin-left: 10px;
+  }
+}
 </style>

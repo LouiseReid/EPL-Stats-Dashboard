@@ -1,5 +1,6 @@
 <template>
   <div v-if="player.details" :class="backgroundColour" class="wrapper">
+    <slot name="nav"/>
     <div class="element--1">
       <PlayerDetail :details="player.details"/>
       <DisciplineStats :stats="player.discipline"/>
@@ -86,6 +87,8 @@ export default {
 .wrapper {
   display: flex;
   justify-content: space-evenly;
+  height: 100vh;
+  overflow: scroll;
 }
 .element--1 {
   display: flex;
@@ -107,7 +110,7 @@ export default {
 }
 
 .arsenal {
-  background-color: $arsenal
+  background-color: $arsenal;
 }
 .liverpool {
   background-color: $liverpool;
@@ -118,14 +121,37 @@ export default {
 }
 
 .manutd {
-  background-color: $manutd
+  background-color: $manutd;
 }
 
 .chelsea {
-  background-color: $chelsea
+  background-color: $chelsea;
 }
 
 .tottenham {
-  background-color: $tottenham
+  background-color: $tottenham;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .wrapper {
+    flex-direction: column;
+    border: 1px solid;
+    height: fit-content;
+  }
+
+  .element--1 {
+    flex-direction: row;
+    width: 100%;
+    height: 35vh;
+  }
+
+  .element--2 {
+    width: 100%;
+  }
+
+  .element--3 {
+    width: 100%;
+    height: fit-content;
+  }
 }
 </style>

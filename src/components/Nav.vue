@@ -1,6 +1,6 @@
 <template>
   <div>
-    <router-link :to="{name: 'Home'}" @click.native="resetPlayersForClub">Home</router-link>
+    <router-link v-if="$route.name !== 'Home'" :to="{name: 'Home'}" @click.native="resetPlayersForClub">Home</router-link>
     <template v-if="players.length === 0">
       <router-link
         v-for="club in clubs"
@@ -41,8 +41,15 @@ a {
   text-decoration: none;
   padding: 0 5px;
   font-size: 18px;
-  &:not(:first-child) {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+  a {
+    font-size: 14px;
+  }
+ }
 </style>

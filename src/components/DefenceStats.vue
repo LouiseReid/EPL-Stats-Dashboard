@@ -68,7 +68,7 @@ export default {
   @include wrapper;
   display: flex;
   flex-direction: column;
-  width: 100%
+  width: 100%;
 }
 
 .charts {
@@ -90,5 +90,32 @@ h2 {
 
 h4 {
   text-align: center;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .wrapper--defence-stats {
+    margin: 10px 7px;
+    padding-bottom: 18px;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 13px;
+  }
+
+  .charts {
+    &--donut {
+      width: 40%;
+    }
+    &--radar {
+      height: 270px;
+      width: 325px;
+      margin-top: -50px;
+    }
+  }
 }
 </style>

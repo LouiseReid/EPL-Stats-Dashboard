@@ -1,5 +1,6 @@
 <template>
   <div v-if="club" :class="[backgroundColour, 'wrapper']">
+    <slot name="nav"/>
     <h2>{{ club }}</h2>
     <div class="charts">
       <div class="element">
@@ -79,24 +80,25 @@ export default {
     backgroundColour() {
       switch (this.club) {
         case "Liverpool":
-          return "liverpool"
+          return "liverpool";
           break;
         case "Manchester City":
-          return "mancity"
+          return "mancity";
           break;
         case "Chelsea":
-          return "chelsea"
+          return "chelsea";
           break;
         case "Arsenal":
-          return "arsenal"
+          return "arsenal";
           break;
         case "Manchester United":
-          return "manutd"
+          return "manutd";
           break;
         case "Tottenham Hotspur":
-          return "tottenham"
+          return "tottenham";
           break;
-        default: null
+        default:
+          null;
           break;
       }
     }
@@ -126,21 +128,21 @@ export default {
           (a, b) => b.goals - a.goals
         );
         const top5Goals = sortedByGoals.slice(0, 5);
-        this.goalsLabels = top5Goals.map(player => player.name.split(' '));
+        this.goalsLabels = top5Goals.map(player => player.name.split(" "));
         this.goalsValues = top5Goals.map(player => player.goals);
 
         const sortedByAssists = this.formattedPlayers.sort(
           (a, b) => b.assists - a.assists
         );
         const top5Assists = sortedByAssists.slice(0, 5);
-        this.assistsLabels = top5Assists.map(player => player.name.split(' '));
+        this.assistsLabels = top5Assists.map(player => player.name.split(" "));
         this.assistsValues = top5Assists.map(player => player.assists);
 
         const sortedByCleanSheets = this.formattedPlayers.sort(
           (a, b) => b["clean-sheets"] - a["clean-sheets"]
         );
         const top5cs = sortedByCleanSheets.slice(0, 5);
-        this.csLabels = top5cs.map(player => player.name.split(' '));
+        this.csLabels = top5cs.map(player => player.name.split(" "));
         this.csValues = top5cs.map(player => player["clean-sheets"]);
 
         const sortedByWins = this.formattedPlayers.sort(
@@ -148,7 +150,7 @@ export default {
         );
 
         const top5Wins = sortedByWins.slice(0, 5);
-        this.wlLabels = top5Wins.map(player => player.name.split(' '));
+        this.wlLabels = top5Wins.map(player => player.name.split(" "));
         this.wonValues = top5Wins.map(player => player.wins);
         this.lostValues = top5Wins.map(player => player.losses);
       });
@@ -166,7 +168,7 @@ export default {
 
 <style lang="scss" scoped>
 .arsenal {
-  background-color: $arsenal
+  background-color: $arsenal;
 }
 .liverpool {
   background-color: $liverpool;
@@ -177,20 +179,20 @@ export default {
 }
 
 .manutd {
-  background-color: $manutd
+  background-color: $manutd;
 }
 
 .chelsea {
-  background-color: $chelsea
+  background-color: $chelsea;
 }
 
 .tottenham {
-  background-color: $tottenham
+  background-color: $tottenham;
 }
 
 .wrapper {
   height: 100vh;
-  margin: 1px solid black;
+  overflow: scroll;
 }
 
 h2 {
@@ -221,6 +223,25 @@ h2 {
   width: 60%;
   & h4 {
     text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+ 
+ .charts {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--bar {
+      height: 180px;
+      width: 215px;
+      margin: 0 auto;
+    }
+  }
+
+  .element {
+    width: 68%;
+    margin: 10px 0;
   }
 }
 </style>
