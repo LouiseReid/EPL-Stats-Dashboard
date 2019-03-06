@@ -90,7 +90,7 @@ export default {
 
   .view {
     width: 100vw;
-    height: auto;
+    height: max-content;
   }
 }
 </style>
