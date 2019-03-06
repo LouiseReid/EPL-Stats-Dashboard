@@ -66,6 +66,7 @@ p {
 
   .long {
     font-size: 12px;
+    line-height: 0.8;
   }
 }
 </style>
