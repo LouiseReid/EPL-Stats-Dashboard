@@ -6,13 +6,11 @@
         <Bar
           v-if="barLabels.length"
           :dataLabels="barLabels"
-          :dataValues="[stats['penalties-saved'],stats['clean-sheets'], stats['goals-conceded'], stats['errors-goals-conceded'], stats['own-goals']]"
+          :dataValues="[stats['penalties-saved'],stats['clean-sheets'], stats['errors-goals-conceded'], stats['own-goals']]"
         />
       </div>
       <div class="charts--polar">
-        <h4>
-          Save Styles
-        </h4>
+        <h4>Save Styles</h4>
         <Polar
           v-if="polarLabels.length"
           :dataLabels="polarLabels"
@@ -44,7 +42,6 @@ export default {
 
     const barToRemove = [
       "clean-sheets",
-      "goals-conceded",
       "errors-goals-conceded",
       "own-goals",
       "penalties-saved"
@@ -88,8 +85,8 @@ h2 {
 }
 
 h4 {
-    font-weight: lighter;
-    float: left;
+  font-weight: lighter;
+  float: left;
 }
 
 .charts {
@@ -103,7 +100,32 @@ h4 {
     margin-top: 155px;
   }
   &--bar {
-      @include bar
+    @include bar;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .wrapper--goalkeeper-stats {
+    height: fit-content;
+  }
+
+  .charts--bar {
+    height: 200px;
+    width: 295px;
+  }
+
+  .charts--polar {
+    width: 210px;
+    margin-top: 100px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
   }
 }
 </style>

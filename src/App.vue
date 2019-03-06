@@ -4,7 +4,7 @@
       <NavBar :clubs="clubs" :players="playersForClub" :key="$route.fullPath"/>
     </div>
     <router-view :key="$route.fullPath" class="view">
-      <v-icon slot="nav" id="nav-toggle" @click="mobileNav = !mobileNav">mdi-menu</v-icon>
+      <v-icon slot="nav" id="nav-toggle" @click="mobileNav = !mobileNav" size="25">mdi-menu</v-icon>
     </router-view>
   </div>
 </template>
