@@ -42,7 +42,7 @@ export default {
   width: 10vw;
   background: $primary;
   margin: 0;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 
 #nav-toggle {
@@ -70,7 +70,8 @@ export default {
 
   #nav.mobile-nav {
     position: unset;
-    width: 30vw;
+    height: auto;
+    width: 25vw;
     transition: 0.5s;
   }
 
