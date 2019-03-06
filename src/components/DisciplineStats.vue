@@ -73,17 +73,19 @@ strong {
   .wrapper--discipline {
     margin: 10px 7px;
     width: 50%;
-    justify-content: center
+    justify-content: center;
+    padding-bottom: 5px;
   }
 
   h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   p,
   strong {
     margin-left: 10px;
+    font-size: 10px;
   }
 }
 </style>

@@ -142,7 +142,7 @@ export default {
   .element--1 {
     flex-direction: row;
     width: 100%;
-    height: 35vh;
+    height: fit-content;
   }
 
   .element--2 {

@@ -56,17 +56,16 @@ p {
   }
 
   img {
-    height: 40%;
-    width: 70%;
+    height: 35%;
+    width: 40%;
     margin-bottom: 5px;
   }
   p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .long {
-    font-size: 12px;
-    line-height: 0.8;
+    font-size: 9px;
   }
 }
 </style>
