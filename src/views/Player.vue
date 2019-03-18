@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import EventService from "@/services/EventService.js";
+import PlayerService from "@/services/PlayerService.js";
 import PlayerDetail from "@/components/PlayerDetail.vue";
 import DefenceStats from "@/components/DefenceStats.vue";
 import AttackStats from "@/components/AttackStats.vue";
@@ -43,7 +43,7 @@ export default {
     };
   },
   mounted() {
-    EventService.getPlayer(this.id).then(res => (this.player = res.data[0]));
+    PlayerService.getPlayer(this.id).then(res => (this.player = res.data[0]));
   },
   components: {
     PlayerDetail,

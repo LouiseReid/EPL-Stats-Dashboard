@@ -5,15 +5,18 @@
       <h1>English Premier League Player Stats 2018-19</h1>
       <p>All stats correct as of game week 30</p>
     </section>
-    <div class="charts">
+    <div v-if="allPlayers.length === 0" id="loading">
+      <v-progress-circular indeterminate color="#b387cf"/>
+    </div>
+    <div class="charts" >
       <div class="element">
         <h4>Top Scorers</h4>
         <div class="charts--bar">
           <Bar
-            v-if="goalsLabels.length"
-            :dataLabels="goalsLabels"
-            :dataValues="goalsValues"
-            colour="#4eb7b6"
+          v-if="goalsLabels.length"
+          :dataLabels="goalsLabels"
+          :dataValues="goalsValues"
+          colour="#4eb7b6"
           />
         </div>
       </div>
@@ -21,10 +24,10 @@
         <h4>Top Assists</h4>
         <div class="charts--bar">
           <Bar
-            v-if="assistsLabels.length"
-            :dataLabels="assistsLabels"
-            :dataValues="assistsValues"
-            colour="#f48794"
+          v-if="assistsLabels.length"
+          :dataLabels="assistsLabels"
+          :dataValues="assistsValues"
+          colour="#f48794"
           />
         </div>
       </div>
@@ -32,10 +35,10 @@
         <h4>Clean Sheets</h4>
         <div class="charts--bar">
           <Bar
-            v-if="csLabels.length"
-            :dataLabels="csLabels"
-            :dataValues="csValues"
-            colour="#d7c887"
+          v-if="csLabels.length"
+          :dataLabels="csLabels"
+          :dataValues="csValues"
+          colour="#d7c887"
           />
         </div>
       </div>
@@ -113,9 +116,14 @@ export default {
   display: flex;
   flex-direction: column;
   background: linear-gradient(rgba(178, 166, 219, 0.75)),
-    url("../assets/stadium.jpg");
+  url("../assets/stadium.jpg");
   background-size: cover;
   overflow: scroll;
+}
+
+#loading {
+  width: fit-content;
+  margin: 0 auto
 }
 
 h1,
@@ -149,10 +157,10 @@ p {
   }
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
   .charts {
     flex-direction: column;
     &--bar {
@@ -165,5 +173,5 @@ and (orientation : portrait) {
     width: 68%;
     margin: 10px 0;
   }
- }
+}
 </style>
